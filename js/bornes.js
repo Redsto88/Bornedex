@@ -16,7 +16,7 @@ var bornes = [
     { "nom": "Cathédrale de Strasbourg.jpg", "x": "48.581683406099174", "y": "7.75032915300844", "alt": "144.665" },
     { "nom": "Cathédrale notre dame de l'Annonciation Nancy.jpg", "x": "48.6915100891874", "y": "6.185734518077786", "alt": "inconnue" },
     { "nom": "Collège Simone Veil, Cheneraille.jpg", "x": "46.110746800392924", "y": "2.172894382954418", "alt": "531" },
-    { "nom": "Cimetière Cesson.jpg", "x": "48.570239463456566", "y": "2.6129995265003860", "alt": "inconnue" },
+    { "nom": "Cimetière Vert-Saint-Denis.jpg", "x": "48.570239463456566", "y": "2.6129995265003860", "alt": "inconnue" },
     { "nom": "Cimetière de Pont à Mousson.jpg", "x": "48.906322616208115", "y": "6.061355894430302", "alt": "189" },
     { "nom": "Cimetière de Rougnat.jpg", "x": "46.05800360766778", "y": "2.502295936473763", "alt": "inconnue" },
     { "nom": "Croisement rue du cailloux Cesson.jpg", "x": "48.5679623516244", "y": "2.59854884126762680", "alt": "inconnue" },
@@ -134,7 +134,7 @@ var bornes = [
     { "nom": "Presbytère Uzerche.jpg", "x": "45.42448843069292", "y": "1.5634837120758152", "alt": "inconnue" },
     { "nom": "Mairie Brunoy.jpg", "x": "48.697836820723246", "y": "2.504271073247553", "alt": "inconnue" },
     { "nom": "Maison Brunoy.jpg", "x": "48.70177604968252", "y": "2.5101553871997595", "alt": "75.61" },
-    
+    { "nom": "Gare de Cesson.jpg", "x": "48.565612733978924", "y": "2.5939389677035067", "alt": "inconnue" },    
 
 
 ]
