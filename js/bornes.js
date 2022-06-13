@@ -134,7 +134,25 @@ var bornes = [
     { "nom": "Presbytère Uzerche.jpg", "x": "45.42448843069292", "y": "1.5634837120758152", "alt": "inconnue" },
     { "nom": "Mairie Brunoy.jpg", "x": "48.697836820723246", "y": "2.504271073247553", "alt": "inconnue" },
     { "nom": "Maison Brunoy.jpg", "x": "48.70177604968252", "y": "2.5101553871997595", "alt": "75.61" },
-    { "nom": "Gare de Cesson.jpg", "x": "48.565612733978924", "y": "2.5939389677035067", "alt": "inconnue" },    
+    { "nom": "Gare de Cesson.jpg", "x": "48.565612733978924", "y": "2.5939389677035067", "alt": "inconnue" },
+    
+    { "nom": "Borne fontaine au croisement rue Bouret et rue Armand carrel Paris.jpg", "x": "48.882793455714285", "y": "2.3716774207995224", "alt": "inconnue" },
+    { "nom": "Creche rue Armand carrel Paris.jpg", "x": "48.882618816399564", "y": "2.377804412493506", "alt": "inconnue" },
+    { "nom": "Croisement rue Armand Carrel et rue de meaux Paris.jpg", "x": "48.882735395079536", "y": "2.37557826428185", "alt": "inconnue" },
+    { "nom": "Croisement rue faubourg saint Martin et rue Eugène Varlin Paris.jpg", "x": "48.879274876638725", "y": "2.363146925030727", "alt": "inconnue" },
+    { "nom": "Gare de l'est.jpg", "x": "48.876981751946445", "y": "2.360923083429044", "alt": "inconnue" },
+    { "nom": "Parc Buttes-Chaumont 4 Paris.jpg", "x": "48.88266381509211", "y": "2.3847653745901933", "alt": "inconnue" },
+    { "nom": "Parc Buttes-Chaumont 5 Paris.jpg", "x": "48.879182993203294", "y": "2.3803512432957707", "alt": "inconnue" },
+    { "nom": "Parc Buttes-Chaumont 6 Paris.jpg", "x": "48.87855090465156", "y": "2.3789063388169427", "alt": "inconnue" },
+    { "nom": "Place Armand Carrel.jpg", "x": "48.88290232218434", "y": "2.382292666748429", "alt": "inconnue" },
+    { "nom": "Rue du Rhin Paris.jpg", "x": "48.88443505650463", "y": "2.3815237020029243", "alt": "inconnue" },
+    { "nom": "Rue de meaux, station Laumière Paris.jpg", "x": "48.885138731417626", "y": "2.380221588723829", "alt": "inconnue" },
+    { "nom": "Stalingrad 2 Paris.jpg", "x": "48.88313309180583", "y": "2.370283565779968", "alt": "inconnue" },
+    { "nom": "Pont de Bercy.jpg", "x": "48.83774817954024", "y": "2.3738583856331883", "alt": "inconnue" },
+    { "nom": "Pont de Tolbiac.jpg", "x": "48.832466308401465", "y": "2.3797984119626348", "alt": "30.500" },
+    { "nom": "Quai de Bercy.jpg", "x": "48.83870932946213", "y": "2.3755138347266436", "alt": "inconnue" },
+    { "nom": "Quai de la râpée.jpg", "x": "48.83954802551557", "y": "2.374721757093692", "alt": "inconnue" },
+    { "nom": "Tunnel proudhon.jpg", "x": "48.83693508920345", "y": "2.389421362991972", "alt": "inconnue" },
 
 
 ]
