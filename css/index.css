@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+
+#map { 
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+
+img{
+    width: 250px;
+    cursor: pointer;
+}
+
+
+.leaflet-popup-content p{
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 15px;
+}
+
+.leaflet-popup-content a{
+    font-size: 15px;
+}
+
+.nom{
+    font-weight: 600;
+    width: 250px;
+}
+
+.inputlist{
+    position: absolute;
+    z-index: 5;
+    top: 15px;
+    right: 15px;
+}
