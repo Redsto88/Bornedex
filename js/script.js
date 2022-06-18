@@ -38,6 +38,26 @@ function updateBorne(){
     document.getElementById('trouvee').innerHTML = compteurtrouvee + " trouvée(s)";
 }
 
+
+function resetData(){
+    // Pour chaque borne
+    for(var i = 0; i < bornes.length; i++){
+        // Change l'icone du marker
+        markers[i].setIcon(borneNonDecouverte);
+        // Sauvegarde l'id de la borne dans la variable local
+        localStorage.setItem("borne" + i, false);
+    }
+    updateBorne();
+}
+
+
+
+
+
+
+
+
+
 var map = L.map('map').setView([47.0016, 2.8], 6.4);
 // Définit la carte utilisé (openstreetmap)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'<a href="https://tinder.com/@enzodeg40">Enzo Degraeve</a> | <a href="https://pierron.iiens.net"> Hugo Pierron </a>'}).addTo(map);
@@ -75,7 +95,7 @@ bornes.forEach(borne => {
             <img onclick="ouvre(${i})" src="bornes/${borne.nom}" alt ="${borne.nom.replace(".jpg","")}" ><br/>
             <p class="nom">${borne.nom.replace(".jpg","")}</p>
             <p>x: ${Math.round(1000*borne.x)/1000} y: ${Math.round(1000*borne.y)/1000}</p>
-            <p>${(borne.alt=="inconnue") ? borne.alt : (borne.alt+" mètres")}</p>
+            <p>altitude : ${(borne.alt=="inconnue") ? borne.alt : (borne.alt+" mètres")}</p>
             
             <div class="options">
                 <a class="option" href="https://www.google.com/maps/search/?api=1&query=${borne.x}, ${borne.y}" target="_blank">

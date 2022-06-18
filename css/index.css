@@ -38,6 +38,13 @@ img{
     right: 15px;
 }
 
+.raz{
+    position: absolute;
+    z-index: 5;
+    bottom: 65px;
+    left:5px;
+}
+
 #compteur{
     position: absolute;
     z-index: 5;
@@ -71,3 +78,5 @@ img{
     height: 100%;
     width: auto;
 }
+
+
