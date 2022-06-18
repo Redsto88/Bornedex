@@ -38,6 +38,17 @@ img{
     right: 15px;
 }
 
+#compteur{
+    position: absolute;
+    z-index: 5;
+    bottom: 0px;
+
+    background-color: white;
+    padding : 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
 .options{
     display: flex;
 }

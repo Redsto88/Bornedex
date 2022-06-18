@@ -3,32 +3,39 @@ function ouvre(num){
     window.open("bornes/"+bornes[num].nom, '_blank').focus();
 }
 
+
+var compteurtrouvee = 0;
+
 // Lorsque qu'une borne à été découverte
 function definitDecouverteBorne(num, decouverte){
     // Change l'icone du marker
     if(decouverte == true){
         markers[num].setIcon(borneDecouverte);
     }
-    else{
+    else if (decouverte == false){
         markers[num].setIcon(borneNonDecouverte);
     }
 
     // Sauvegarde l'id de la borne dans la variable local
-    localStorage.setItem("borne" + num, decouverte); 
+    localStorage.setItem("borne" + num, decouverte);
+    updateBorne();
 }
 
 function updateBorne(){
     // Pour chaque borne
+    compteurtrouvee=0;
     for(var i = 0; i < bornes.length; i++){
 
         if(localStorage.getItem("borne" + i) == 'true'){
             markers[i].setIcon(borneDecouverte);
+            compteurtrouvee++;
         }
         // Sinon
         else{
             markers[i].setIcon(borneNonDecouverte);
         }
     }
+    document.getElementById('trouvee').innerHTML = compteurtrouvee + " trouvée(s)";
 }
 
 var map = L.map('map').setView([47.0016, 2.8], 6.4);
@@ -61,6 +68,7 @@ var markers = [];
 
 var i = 0
 bornes.forEach(borne => {
+
     if (borne.y!=0){
         markers[i] = L.marker([(borne.x == 0) ? i : borne.x, borne.y], { icon: borneNonDecouverte })
         .addTo(map).bindPopup(`
@@ -88,9 +96,10 @@ bornes.forEach(borne => {
 
     }
     i+=1;
-    
 
 });
+
+document.getElementById('total').innerHTML = "Total : " + bornes.length;
 
 // Définit l'input
 const inputlist = document.querySelector('.inputlist');
@@ -108,3 +117,4 @@ inputlist.addEventListener('change', (event) => {
 });
 
 updateBorne();
+
