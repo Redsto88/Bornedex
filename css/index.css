@@ -37,3 +37,26 @@ img{
     top: 15px;
     right: 15px;
 }
+
+.options{
+    display: flex;
+}
+
+.option{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 25px;
+    min-width: 25px;
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.option:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.option img{
+    height: 100%;
+    width: auto;
+}
