@@ -7,10 +7,10 @@ function ouvre(num){
 function definitDecouverteBorne(num, decouverte){
     // Change l'icone du marker
     if(decouverte == true){
-        makers[num].setIcon(borneDecouverte);
+        markers[num].setIcon(borneDecouverte);
     }
     else{
-        makers[num].setIcon(borneNonDecouverte);
+        markers[num].setIcon(borneNonDecouverte);
     }
 
     // Sauvegarde l'id de la borne dans la variable local
@@ -22,11 +22,11 @@ function updateBorne(){
     for(var i = 0; i < bornes.length; i++){
 
         if(localStorage.getItem("borne" + i) == 'true'){
-            makers[i].setIcon(borneDecouverte);
+            markers[i].setIcon(borneDecouverte);
         }
         // Sinon
         else{
-            makers[i].setIcon(borneNonDecouverte);
+            markers[i].setIcon(borneNonDecouverte);
         }
     }
 }
@@ -57,12 +57,12 @@ var borneDecouverte = L.icon({
     shadowSize: [41, 41]
 });
 
-var makers = [];
+var markers = [];
 
 var i = 0
 bornes.forEach(borne => {
     if (borne.y!=0){
-        makers[i] = L.marker([(borne.x == 0) ? i : borne.x, borne.y], { icon: borneNonDecouverte })
+        markers[i] = L.marker([(borne.x == 0) ? i : borne.x, borne.y], { icon: borneNonDecouverte })
         .addTo(map).bindPopup(`
             <img onclick="ouvre(${i})" src="bornes/${borne.nom}" alt ="${borne.nom.replace(".jpg","")}" ><br/>
             <p class="nom">${borne.nom.replace(".jpg","")}</p>
