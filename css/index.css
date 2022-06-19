@@ -79,6 +79,7 @@ img{
     display: none;
     padding: 5px;
     height: calc(100vh - 10px);
+    max-height: 100%;
     flex-direction: column;
     color : white;
 }
