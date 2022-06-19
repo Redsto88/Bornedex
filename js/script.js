@@ -50,13 +50,72 @@ function resetData(){
     updateBorne();
 }
 
+function FullData(){
+    for(var i = 0; i < bornes.length; i++){
+        markers[i].setIcon(borneDecouverte);
+        localStorage.setItem("borne" + i, true);
+    }
+    updateBorne();
+}
 
 
 
+function showmenu(){
+    document.getElementById('menu').style.width = "250px";
+    document.getElementById('menu-container').style.display = "flex";
+    document.getElementById('menu').style.borderRight = "#172741 solid 2px"
+}
+
+function closemenu(){
+    document.getElementById('menu').style.width = "0px";
+    document.getElementById('menu-container').style.display = "none";
+    document.getElementById('menu').style.borderRight = "#172741 solid 0px"
+    document.getElementById('copie').innerHTML = "";
+    document.getElementsByClassName('import-save')[0].value = "";
+}
+
+function wait(ms){
+    var start = new Date().getTime();
+    var end = start;
+    while(end < start + ms) {
+      end = new Date().getTime();
+   }
+ }
+
+function exportSave(){
+    var save = "";
+    for(var i = 0; i < bornes.length; i++){
+        if (localStorage.getItem("borne" + i) == 'true'){
+            save += "1";
+        }
+        else{
+            save += "0";
+        }
+    }
+    navigator.clipboard.writeText(save);
+    document.getElementById('copie').innerHTML = "Copié dans le presse-papier !";
+}
 
 
-
-
+function importSave(){
+    var save = document.getElementsByClassName('import-save')[0].value;
+    console.log(save.length);
+    console.log(bornes.length);
+    if(save.length == bornes.length){
+        for(var i = 0; i < bornes.length; i++){
+            if(save[i] == "1"){
+                definitDecouverteBorne(i, true);
+            }
+            else{
+                definitDecouverteBorne(i, false);
+            }
+        }
+    }
+    else{
+        alert("Sauvegarde invalide");
+    }
+    document.getElementsByClassName('import-save')[0].value = "";
+}
 
 var map = L.map('map').setView([47.0016, 2.8], 6.4);
 // Définit la carte utilisé (openstreetmap)
@@ -137,4 +196,7 @@ inputlist.addEventListener('change', (event) => {
 });
 
 updateBorne();
+
+document.getElementsByClassName('leaflet-control-zoom leaflet-bar leaflet-control')[0].style.marginTop = "50px";
+
 

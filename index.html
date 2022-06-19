@@ -11,11 +11,29 @@
     </head>
     <body>
         <input class="inputlist" list="bornelist">
-        <button class="raz" onclick="resetData()">Remise à zéro</button>
-        <div id="compteur">
-            <div id="trouvee">0 trouvée(s)</div>
-            <div id="total">Total : 0</div>
+        
+        <img class="menu-button" src="img/menu.svg" onclick="showmenu()"></img>
+        <div id="menu">
+            <div id="menu-container">
+                <div id ="blanchaut"></div>
+                <img class="menu-button" src="img/close_menu.svg" onclick="closemenu()"></img>
+                <div id="copie"></div>
+                <button class="export-save" onclick="exportSave()">Exporter la sauvegarde</button>
+                <input type="text" class="import-save">
+                <button class="import-save-button" onclick="importSave()">Importer la sauvegarde</button>
+                <div id ="blanc"></div>
+                <button class="toutcocher" onclick="FullData()">Tout cocher</button>
+                <button class="raz" onclick="resetData()">Remise à zéro</button>
+                
+                
+                <div id="compteur">
+                    <div id="trouvee">0 trouvée(s)</div>
+                    <div id="total">Total : 0</div>
+                </div>
+            </div>
+            
         </div>
+        
         <datalist id="bornelist"></datalist>
 
         <div id="map"></div>
