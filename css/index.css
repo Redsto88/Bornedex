@@ -57,7 +57,7 @@ img{
     z-index: 6;
     left: 0px;
     width: 0px;
-    height: 150%;
+    height: 100%;
     background-color: #363E4B;
     transition: 0.5s;
     border-right: #172741 solid 0px;
