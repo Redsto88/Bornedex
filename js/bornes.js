@@ -153,6 +153,20 @@ var bornes = [
     { "nom": "Quai de Bercy.jpg", "x": "48.83870932946213", "y": "2.3755138347266436", "alt": "inconnue" },
     { "nom": "Quai de la râpée.jpg", "x": "48.83954802551557", "y": "2.374721757093692", "alt": "inconnue" },
     { "nom": "Tunnel proudhon.jpg", "x": "48.83693508920345", "y": "2.389421362991972", "alt": "inconnue" },
-
-
+    { "nom": "Avenue du Président Kennedy, kenclub Paris.jpg", "x": "48.85356663867718", "y": "2.282397857866793", "alt": "inconnue" },
+    { "nom": "Croisement Avenue du Président Kennedy, rue d'Ankara Paris.jpg", "x": "48.854398785751734", "y": "2.2836224631462243", "alt": "inconnue" },
+    { "nom": "Croisement Boulevard de Belleville, Rue D'Oberkampf Paris.jpg", "x": "48.86714505108471", "y": "2.382545722744368", "alt": "inconnue" },
+    { "nom": "Eglise Gimel-les-Cascades.jpg", "x": "45.298985074406964", "y": "1.8513032981901254", "alt": "inconnue" },
+    { "nom": "Eglise Vert-Saint-Denis.jpg", "x": "48.56552162001606", "y": "2.6134980651200403", "alt": "inconnue" },
+    { "nom": "Gare d'avenue du président Kennedy Paris.jpg", "x": "48.852894635171246", "y": "2.281286362183796", "alt": "inconnue" },
+    { "nom": "LCL croisement rue Daniel Stern, boulevard de grenelles Paris.jpg", "x": "48.851054815711244", "y": "2.292807338373962", "alt": "inconnue" },
+    { "nom": "Le Reverdi Cesson.jpg", "x": "48.55795986888066", "y": "2.608467134970431", "alt": "inconnue" },
+    { "nom": "Pont d'Inéa Paris.jpg", "x": "48.85917169293937", "y": "2.2926313810267227", "alt": "inconnue" },
+    { "nom": "Port Debilly, Pont d'Inéa Paris.jpg", "x": "48.86015984392405", "y": "2.2911111519830576", "alt": "28,975" },
+    { "nom": "Poste croisement rue du théâtre, rue de Lourmel Paris.jpg", "x": "48.84822681493093", "y": "2.290145817764662", "alt": "inconnue" },
+    { "nom": "Rond point Vert-Saint-Denis.jpg", "x": "48.56634465081164", "y": "2.6186002264150114", "alt": "75,80" },
+    { "nom": "Rue de Lourmel École Saint Elizabeth Paris.jpg", "x": "48.84288343414814", "y": "2.286131069865411", "alt": "inconnue" },
+    { "nom": "Rue de Lourmel, arrêt 42 Charles Michels Paris.jpg", "x": "48.845458670833644", "y": "2.2877329946912397", "alt": "inconnue" },
+    { "nom": "Rue Émile Zola Restaurant l'épopée Paris.jpg", "x": "48.84674675528673", "y": "2.288239723665233", "alt": "inconnue" },
+    { "nom": "Sortie parc de Belleville rue Julien Lacroix Paris.jpg", "x": "48.87090973409201", "y": "2.383622305829808", "alt": "inconnue" },
 ]
