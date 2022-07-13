@@ -169,4 +169,5 @@ var bornes = [
     { "nom": "Rue de Lourmel, arrêt 42 Charles Michels Paris.jpg", "x": "48.845458670833644", "y": "2.2877329946912397", "alt": "inconnue" },
     { "nom": "Rue Émile Zola Restaurant l'épopée Paris.jpg", "x": "48.84674675528673", "y": "2.288239723665233", "alt": "inconnue" },
     { "nom": "Sortie parc de Belleville rue Julien Lacroix Paris.jpg", "x": "48.87090973409201", "y": "2.383622305829808", "alt": "inconnue" },
+    { "nom": "Gare Melun.jpg", "x": "48.527472136591086", "y": "2.655834323942217", "alt": "inconnue" },
 ]
