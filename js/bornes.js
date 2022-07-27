@@ -135,7 +135,6 @@ var bornes = [
     { "nom": "Mairie Brunoy.jpg", "x": "48.697836820723246", "y": "2.504271073247553", "alt": "inconnue" },
     { "nom": "Maison Brunoy.jpg", "x": "48.70177604968252", "y": "2.5101553871997595", "alt": "75.61" },
     { "nom": "Gare de Cesson.jpg", "x": "48.565612733978924", "y": "2.5939389677035067", "alt": "inconnue" },
-    
     { "nom": "Borne fontaine au croisement rue Bouret et rue Armand carrel Paris.jpg", "x": "48.882793455714285", "y": "2.3716774207995224", "alt": "inconnue" },
     { "nom": "Creche rue Armand carrel Paris.jpg", "x": "48.882618816399564", "y": "2.377804412493506", "alt": "inconnue" },
     { "nom": "Croisement rue Armand Carrel et rue de meaux Paris.jpg", "x": "48.882735395079536", "y": "2.37557826428185", "alt": "inconnue" },
@@ -170,4 +169,9 @@ var bornes = [
     { "nom": "Rue Émile Zola Restaurant l'épopée Paris.jpg", "x": "48.84674675528673", "y": "2.288239723665233", "alt": "inconnue" },
     { "nom": "Sortie parc de Belleville rue Julien Lacroix Paris.jpg", "x": "48.87090973409201", "y": "2.383622305829808", "alt": "inconnue" },
     { "nom": "Gare Melun.jpg", "x": "48.527472136591086", "y": "2.655834323942217", "alt": "inconnue" },
+    { "nom": "Château de Fontainebleau.jpg", "x": "48.40262830233666", "y": "2.6971310823628594", "alt": "76" },
+    { "nom": "Église Saint-Louis - Fontainebleau.jpg", "x": "48.405351589711245", "y": "2.701348841375569", "alt": "79,34" },
+    { "nom": "Le grand canal bridge - Fontainebleau.jpg", "x": "48.40165895393035", "y": "2.7061642213112513", "alt": "65" },
+    { "nom": "Rue Paul Séramy - Fontainebleau.jpg", "x": "48.40337818832932", "y": "2.704342910310553", "alt": "71" },
+    { "nom": "La Poste - Fontainbleau.jpg", "x": "48.40382883265984", "y": "2.7002017821930977", "alt": "78m" }
 ]
