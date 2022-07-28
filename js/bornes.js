@@ -178,5 +178,19 @@ var bornes = [
     { "nom": "Eglise Saint-Germain-de-Paris - La Grande-Paroisse.jpg", "x": "48.38065300267814", "y": "2.9031341426693005", "alt": "inconnue" },
     { "nom": "Ecole Primaire Clovis Moriot - La Grande-Paroisse.jpg", "x": "48.386415739364956", "y": "2.9006035233923", "alt": "116" },
     { "nom": "Rue de la Garenne - La Grande-Paroisse.jpg", "x": "48.38758445050553", "y": "2.9053821082405933", "alt": "121" },
-    { "nom": "Rue Haute - La Grande-Paroisse.jpg", "x": "48.38684105798552", "y": "2.906724398145804", "alt": "inconnue" },
+    { "nom": "Rue Haute - La Grande-Paroisse.jpg", "x": "48.38684105798552", "y": "2.906724398145804", "alt": "119,02" },
+
+    { "nom": "Arc de Triomphe du Carrousel Paris.jpg", "x": "48.86169812319998", "y": "2.3328998869525264", "alt": "35.50" },
+    { "nom": "Chapelle Villemoneix.jpg", "x": "45.81384064080763", "y": "2.0227241890008933", "alt": "736" },
+    { "nom": "Cimetière Seine-Port.jpg", "x": "48.556173195514624", "y": "2.5597076949191857", "alt": "inconnue" },
+    { "nom": "Croisement rue Ernest Legouvé, Route de Nandy Seine-Port.jpg", "x": "48.56197512582688", "y": "2.5514377797621295", "alt": "54" },
+    { "nom": "Eglise Seine-Port.jpg", "x": "48.55733902024411", "y": "2.5518504365801826", "alt": "50,10" },
+    { "nom": "Entrée Chicane, Seine-Port.jpg", "x": "48.55439278940779", "y": "2.5476045969428496", "alt": "50,20" },
+    { "nom": "Rapid'Market Seine-Port.jpg", "x": "48.557652452217766", "y": "2.548936568648738", "alt": "46" },
+    { "nom": "Nouveau Quartier Seine-Port.jpg", "x": "48.555227730668214", "y": "2.5432110317082977", "alt": "47" },
+    { "nom": "Le Balory Seine-Port.jpg", "x": "48.55847282415883", "y": "2.5511467977505764", "alt": "44" },
+    { "nom": "Pont Évry.jpg", "x": "48.62584494757559", "y": "2.433935577758956", "alt": "inconnue" },
+    { "nom": "Jardin Lecoq Clermont-Ferrand.jpg", "x": "45.77348032037136", "y": "3.08979261778077", "alt": "381.369" },
+    { "nom": "Paris 10eme, sapeur pompier.jpg", "x": "48.87128315002652", "y": "2.3581701718386348", "alt": "inconnue" },
+    
 ]
