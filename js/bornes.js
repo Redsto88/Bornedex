@@ -173,5 +173,10 @@ var bornes = [
     { "nom": "Église Saint-Louis - Fontainebleau.jpg", "x": "48.405351589711245", "y": "2.701348841375569", "alt": "79,34" },
     { "nom": "Le grand canal bridge - Fontainebleau.jpg", "x": "48.40165895393035", "y": "2.7061642213112513", "alt": "65" },
     { "nom": "Rue Paul Séramy - Fontainebleau.jpg", "x": "48.40337818832932", "y": "2.704342910310553", "alt": "71" },
-    { "nom": "La Poste - Fontainbleau.jpg", "x": "48.40382883265984", "y": "2.7002017821930977", "alt": "78m" }
+    { "nom": "La Poste - Fontainbleau.jpg", "x": "48.40382883265984", "y": "2.7002017821930977", "alt": "78" },
+    { "nom": "Passage à niveau - La Grande-Paroisse.jpg", "x": "48.379714907567255", "y": "2.9023452308287343", "alt": "52,12" },
+    { "nom": "Eglise Saint-Germain-de-Paris - La Grande-Paroisse.jpg", "x": "48.38065300267814", "y": "2.9031341426693005", "alt": "inconnue" },
+    { "nom": "Ecole Primaire Clovis Moriot - La Grande-Paroisse.jpg", "x": "48.386415739364956", "y": "2.9006035233923", "alt": "116" },
+    { "nom": "Rue de la Garenne - La Grande-Paroisse.jpg", "x": "48.38758445050553", "y": "2.9053821082405933", "alt": "121" },
+    { "nom": "Rue Haute - La Grande-Paroisse.jpg", "x": "48.38684105798552", "y": "2.906724398145804", "alt": "inconnue" },
 ]
