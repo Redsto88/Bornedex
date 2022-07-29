@@ -179,7 +179,6 @@ var bornes = [
     { "nom": "Ecole Primaire Clovis Moriot - La Grande-Paroisse.jpg", "x": "48.386415739364956", "y": "2.9006035233923", "alt": "116" },
     { "nom": "Rue de la Garenne - La Grande-Paroisse.jpg", "x": "48.38758445050553", "y": "2.9053821082405933", "alt": "121" },
     { "nom": "Rue Haute - La Grande-Paroisse.jpg", "x": "48.38684105798552", "y": "2.906724398145804", "alt": "119,02" },
-
     { "nom": "Arc de Triomphe du Carrousel Paris.jpg", "x": "48.86169812319998", "y": "2.3328998869525264", "alt": "35.50" },
     { "nom": "Chapelle Villemoneix.jpg", "x": "45.81384064080763", "y": "2.0227241890008933", "alt": "736" },
     { "nom": "Cimetière Seine-Port.jpg", "x": "48.556173195514624", "y": "2.5597076949191857", "alt": "inconnue" },
@@ -192,10 +191,13 @@ var bornes = [
     { "nom": "Pont Évry.jpg", "x": "48.62584494757559", "y": "2.433935577758956", "alt": "inconnue" },
     { "nom": "Jardin Lecoq Clermont-Ferrand.jpg", "x": "45.77348032037136", "y": "3.08979261778077", "alt": "381.369" },
     { "nom": "Paris 10eme, sapeur pompier.jpg", "x": "48.87128315002652", "y": "2.3581701718386348", "alt": "inconnue" },
-    
     { "nom": "Olivier Et Co - Levallois-Perret.jpg", "x": "48.88692899353736", "y": "2.283287805667875", "alt": "inconnue" },  
     { "nom": "Église Saint-Pierre-de-Montrouge - Paris.jpg", "x": "48.82852516267791", "y": "2.3268417048343455", "alt": "inconnue" },  
     { "nom": "Palais d'Orléans - Paris.jpg", "x": "48.83070767624404", "y": "2.3254646772684926", "alt": "inconnue" },
     { "nom": "Jardin de l'Observatoire de Paris.jpg", "x": "48.83477433989855", "y": "2.3367628120823825", "alt": "inconnue" },
     { "nom": "16b Av. René Coty - Paris.jpg", "x": "48.82999444933938", "y": "2.333828297673664", "alt": "inconnue" },
+    { "nom": "Lirairie petit Limoges.jpg", "x": "45.83261957502892", "y": "1.2555999222043306", "alt": "284" },
+
+    
+
 ]
