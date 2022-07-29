@@ -193,4 +193,9 @@ var bornes = [
     { "nom": "Jardin Lecoq Clermont-Ferrand.jpg", "x": "45.77348032037136", "y": "3.08979261778077", "alt": "381.369" },
     { "nom": "Paris 10eme, sapeur pompier.jpg", "x": "48.87128315002652", "y": "2.3581701718386348", "alt": "inconnue" },
     
+    { "nom": "Olivier Et Co - Levallois-Perret.jpg", "x": "48.88692899353736", "y": "2.283287805667875", "alt": "inconnue" },  
+    { "nom": "Église Saint-Pierre-de-Montrouge - Paris.jpg", "x": "48.82852516267791", "y": "2.3268417048343455", "alt": "inconnue" },  
+    { "nom": "Palais d'Orléans - Paris.jpg", "x": "48.83070767624404", "y": "2.3254646772684926", "alt": "inconnue" },
+    { "nom": "Jardin de l'Observatoire de Paris.jpg", "x": "48.83477433989855", "y": "2.3367628120823825", "alt": "inconnue" },
+    { "nom": "16b Av. René Coty - Paris.jpg", "x": "48.82999444933938", "y": "2.333828297673664", "alt": "inconnue" },
 ]
