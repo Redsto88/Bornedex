@@ -197,7 +197,8 @@ var bornes = [
     { "nom": "Jardin de l'Observatoire de Paris.jpg", "x": "48.83477433989855", "y": "2.3367628120823825", "alt": "inconnue" },
     { "nom": "16b Av. René Coty - Paris.jpg", "x": "48.82999444933938", "y": "2.333828297673664", "alt": "inconnue" },
     { "nom": "Lirairie petit Limoges.jpg", "x": "45.83261957502892", "y": "1.2555999222043306", "alt": "284" },
-
-    
-
+    { "nom": "Pouilly-le-Fort.jpg", "x": "48.584579228983664", "y": "2.6294435084912453", "alt": "80.53" },
+    { "nom": "Eglise - Réau.jpg", "x": "48.610369755252826", "y": "2.623171791993719", "alt": "90.605" },
+    { "nom": "Ecole - Réau.jpg", "x": "48.612105535799685", "y": "2.6223960538030227", "alt": "inconnue" },
+    { "nom": "Mairie - Réau.jpg", "x": "48.61070376511946", "y": "2.6237589737216362", "alt": "91" },
 ]
