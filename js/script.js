@@ -82,6 +82,41 @@ function wait(ms){
    }
  }
 
+
+ function hex2bin(hex) {
+    let bin = "";
+    let bitsInHex = 4;
+  
+    Array.from(hex).forEach(
+      function (char) {
+        let currentBin = parseInt(char, 16).toString(2);
+  
+        if (currentBin.length < bitsInHex) {
+          let padding = "0".repeat(bitsInHex-currentBin.length);
+          currentBin = padding + currentBin;
+        }
+  
+        bin += currentBin;
+      }
+    );
+  
+    return bin;
+  }
+  
+  function bin2hex(bin) {
+    let hex = "";
+    let bitsInHex = 4;
+  
+    for (let i = 0; i < bin.length; i = i + bitsInHex) {
+      let eightBits = bin.substr(i, bitsInHex);
+      let currentHex = (parseInt(eightBits, 2)).toString(16).toUpperCase();
+      hex += currentHex;
+    }
+  
+    return hex;
+  }
+
+
 function exportSave(){
     var save = "";
     for(var i = 0; i < bornes.length; i++){
@@ -92,6 +127,7 @@ function exportSave(){
             save += "0";
         }
     }
+    save = bin2hex(save)
     navigator.clipboard.writeText(save);
     document.getElementById('copie').innerHTML = "Copié dans le presse-papier !";
 }
@@ -99,6 +135,7 @@ function exportSave(){
 
 function importSave(){
     var save = document.getElementsByClassName('import-save')[0].value;
+    save = hex2bin(save)
     console.log(save.length);
     console.log(bornes.length);
     if(save.length == bornes.length){
