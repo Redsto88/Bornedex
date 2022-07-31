@@ -201,4 +201,7 @@ var bornes = [
     { "nom": "Eglise - Réau.jpg", "x": "48.610369755252826", "y": "2.623171791993719", "alt": "90.605" },
     { "nom": "Ecole - Réau.jpg", "x": "48.612105535799685", "y": "2.6223960538030227", "alt": "inconnue" },
     { "nom": "Mairie - Réau.jpg", "x": "48.61070376511946", "y": "2.6237589737216362", "alt": "91" },
+    { "nom": "Rue Sophie Germain - Paris.jpg", "x": "48.83077211866985", "y": "2.331193354403655", "alt": "inconnue" },
+    { "nom": "19 bis Av. du Général Leclerc - Paris.jpg", "x": "48.831382806135856", "y": "2.330190435370789", "alt": "64.126" },
+    { "nom": "Hotel de Police 14e - Paris.jpg", "x": "48.83236876641028", "y": "2.3310468128809245", "alt": "inconnue" },
 ]
