@@ -204,4 +204,9 @@ var bornes = [
     { "nom": "Rue Sophie Germain - Paris.jpg", "x": "48.83077211866985", "y": "2.331193354403655", "alt": "inconnue" },
     { "nom": "19 bis Av. du Général Leclerc - Paris.jpg", "x": "48.831382806135856", "y": "2.330190435370789", "alt": "64.126" },
     { "nom": "Hotel de Police 14e - Paris.jpg", "x": "48.83236876641028", "y": "2.3310468128809245", "alt": "inconnue" },
+    { "nom": "Maison rue de Paris - Cesson.jpg", "x": "48.57692799398464", "y": "2.6017533079991675", "alt": "inconnue" },
+    { "nom": "Pont de Tolbiac 2.jpg", "x": "48.83354506512381", "y": "2.3818657957660454", "alt": "30.5" },
+    { "nom": "Bouvard Diderot Paris.jpg", "x": "48.84536070082637", "y": "2.3705050592254238", "alt": "inconnue" },
+    { "nom": "Paris Gare de Lyon.jpg", "x": "48.84469982689874", "y": "2.3728412683933042", "alt": "inconnue" },
+    { "nom": "Rue de l'église de Crisenoy.jpg", "x": "48.59776562982324", "y": "2.7440049312700254", "alt": "91" },
 ]
