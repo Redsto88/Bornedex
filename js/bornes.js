@@ -209,4 +209,7 @@ var bornes = [
     { "nom": "Bouvard Diderot Paris.jpg", "x": "48.84536070082637", "y": "2.3705050592254238", "alt": "inconnue" },
     { "nom": "Paris Gare de Lyon.jpg", "x": "48.84469982689874", "y": "2.3728412683933042", "alt": "inconnue" },
     { "nom": "Rue de l'église de Crisenoy.jpg", "x": "48.59776562982324", "y": "2.7440049312700254", "alt": "91" },
+    { "nom": "Eglise Saint-Maurice - Blandy.jpg", "x": "48.56787334484295", "y": "2.781514379983031", "alt": "inconnue" },
+    { "nom": "Rue Vauchevres - Blandy.jpg", "x": "48.56550379493838", "y": "2.7796628779724974", "alt": "inconnue" },
+    { "nom": "Pont Paillard - Blandy.jpg", "x": "48.57098446288633", "y": "2.7824569945541446", "alt": "inconnue" },
 ]
