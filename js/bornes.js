@@ -212,4 +212,5 @@ var bornes = [
     { "nom": "Eglise Saint-Maurice - Blandy.jpg", "x": "48.56787334484295", "y": "2.781514379983031", "alt": "inconnue" },
     { "nom": "Rue Vauchevres - Blandy.jpg", "x": "48.56550379493838", "y": "2.7796628779724974", "alt": "inconnue" },
     { "nom": "Pont Paillard - Blandy.jpg", "x": "48.57098446288633", "y": "2.7824569945541446", "alt": "inconnue" },
+    { "nom": "Sous le pont de la gare de Melun.jpg", "x": "48.52758573890251", "y": "2.6535736267595165", "alt": "inconnue" }
 ]
