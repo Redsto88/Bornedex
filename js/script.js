@@ -1,6 +1,6 @@
 // Ouvre l'image en plein écran lors du clic sur l'image
 function ouvre(num){
-    window.open("bornes/"+bornes[num].nom, '_blank').focus();
+    window.open("bornes/"+bornes[num].id+".jpg", '_blank').focus();
 }
 
 
@@ -188,8 +188,8 @@ bornes.forEach(borne => {
     if (borne.y!=0){
         markers[i] = L.marker([(borne.x == 0) ? i : borne.x, borne.y], { icon: borneNonDecouverte })
         .addTo(map).bindPopup(`
-            <img onclick="ouvre(${i})" src="bornes/${borne.nom}" alt ="${borne.nom.replace(".jpg","")}" ><br/>
-            <p class="nom">${borne.nom.replace(".jpg","")}</p>
+            <img onclick="ouvre(${i})" src="bornes/${borne.id}.jpg" alt ="${borne.nom}" ><br/>
+            <p class="nom">${borne.nom}</p>
             <p>x: ${Math.round(1000*borne.x)/1000} y: ${Math.round(1000*borne.y)/1000}</p>
             <p>altitude : ${(borne.alt=="inconnue") ? borne.alt : (borne.alt+" mètres")}</p>
             
@@ -208,7 +208,7 @@ bornes.forEach(borne => {
             </div>
         `);
 
-        document.getElementById('bornelist').innerHTML += `<option value="${borne.nom.replace(".jpg","")}">`;
+        document.getElementById('bornelist').innerHTML += `<option value="${borne.nom}">`;
 
     }
     i+=1;
@@ -224,7 +224,7 @@ const inputlist = document.querySelector('.inputlist');
 inputlist.addEventListener('change', (event) => {
     bornes.forEach(borne => {
         if (borne.y!=0){
-            if (event.target.value + ".jpg" == borne.nom){
+            if (event.target.value == borne.nom){
                 map.flyTo([borne.x, borne.y], 17);
                 return;
             }
