@@ -212,5 +212,11 @@ var bornes = [
     { "nom": "Eglise Saint-Maurice - Blandy.jpg", "x": "48.56787334484295", "y": "2.781514379983031", "alt": "inconnue" },
     { "nom": "Rue Vauchevres - Blandy.jpg", "x": "48.56550379493838", "y": "2.7796628779724974", "alt": "inconnue" },
     { "nom": "Pont Paillard - Blandy.jpg", "x": "48.57098446288633", "y": "2.7824569945541446", "alt": "inconnue" },
-    { "nom": "Sous le pont de la gare de Melun.jpg", "x": "48.52758573890251", "y": "2.6535736267595165", "alt": "inconnue" }
+    { "nom": "Sous le pont de la gare de Melun.jpg", "x": "48.52758573890251", "y": "2.6535736267595165", "alt": "inconnue" },
+    { "nom" : "Chapelle du Puy Saint Clair, Tulle.jpg", "x":"45.272189568899805", "y":"1.7733403098902139", "alt":"inconnue"},
+    { "nom" : "Croisement boulevard Diderot, rue de Bercy Paris.jpg", "x":"48.84577757697178", "y":"2.371072193674523", "alt":"inconnue"},
+    { "nom" : "Gare de Lyon, rue de Lyon et Bd Diderot, Paris.jpg", "x":"48.845513665300466", "y":"2.372004372930986", "alt":"inconnue"},
+    { "nom" : "Chateau d'eau rue joffre Colmar.jpg", "x":"48.07120716467561", "y":"7.352615561851307", "alt":"inconnue"},
+    { "nom" : "Église des Dominicains Colmar.jpg", "x":"48.07834468806482", "y":"7.357111502703038", "alt":"194"},
+    { "nom" : "EM Lyon business school Paris.jpg", "x":"48.845758399930254", "y":"2.3715398502546465", "alt":"inconnue"},
 ]
