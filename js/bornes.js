@@ -113,7 +113,6 @@ var bornes = [
     { "nom": "Entrée de ville Lorey.jpg", "x": "48.49820351526742", "y": "6.302916032535162", "alt": "inconnue" },
     { "nom": "Mairie Saffais.jpg", "x": "48.55591350550755", "y": "6.311138639826255", "alt": "348" },
     { "nom": "Église Saint-Mard.jpg", "x": "48.505836729230744", "y": "6.304668576547503", "alt": "inconnue" },
-    { "nom": "Entrée de ville Lorey.jpg", "x": "48.49820351526742", "y": "6.302916032535162", "alt": "inconnue" },
     { "nom": "École de la Providence Bayon.jpg", "x": "48.47628167914696", "y": "6.312196494163723", "alt": "261" },
     { "nom": "Maison Bayon.jpg", "x": "48.473640057273656", "y": "6.315769053436389", "alt": "265" },
     { "nom": "Eglise Roville-Devant-Bayon.jpg", "x": "48.46682428601606", "y": "6.2907851210356105", "alt": "inconnue" },
@@ -219,4 +218,8 @@ var bornes = [
     { "nom" : "Chateau d'eau rue joffre Colmar.jpg", "x":"48.07120716467561", "y":"7.352615561851307", "alt":"inconnue"},
     { "nom" : "Église des Dominicains Colmar.jpg", "x":"48.07834468806482", "y":"7.357111502703038", "alt":"194"},
     { "nom" : "EM Lyon business school Paris.jpg", "x":"48.845758399930254", "y":"2.3715398502546465", "alt":"inconnue"},
+    { "nom": "Chateau d'eau Boutigny-sur-Essonne.jpg", "x": "48.44491280906846", "y": "2.3915250495772375", "alt": "133" },
+    { "nom": "La Poste Chevry-Cossigny.jpg", "x": "48.724676529691074", "y": "2.6583898003881643", "alt": "102" },
+    { "nom": "Paroisse de Chevry-Cossigny.jpg", "x": "48.72448243755652", "y": "2.6579156147342173", "alt": "102" },
+    { "nom": "Eglise de Chevry-Cossigny.jpg", "x": "48.7249552062767", "y": "2.657260048963047", "alt": "101" },
 ]
