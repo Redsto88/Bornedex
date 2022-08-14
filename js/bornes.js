@@ -222,4 +222,6 @@ var bornes = [
     {"id":218, "nom": "La Poste Chevry-Cossigny", "x": "48.724676529691074", "y": "2.6583898003881643", "alt": "102" },
     {"id":219, "nom": "Paroisse de Chevry-Cossigny", "x": "48.72448243755652", "y": "2.6579156147342173", "alt": "102" },
     {"id":220, "nom": "Eglise de Chevry-Cossigny", "x": "48.7249552062767", "y": "2.657260048963047", "alt": "101" },
+    {"id":221, "nom": "Eglise de Linthelles", "x": "48.71605615051701", "y": "3.8216444614096177", "alt": "101.63" },
+    {"id":222, "nom": "Rue de Sézanne Linthelles", "x": "48.716555", "y": "3.818670", "alt": "102.01" },
 ]
