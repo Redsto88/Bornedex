@@ -53,6 +53,19 @@ img{
     border-collapse: collapse;
 }
 
+.link-button{
+    position: absolute;
+    z-index: 5;
+    width: 20px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 50px;
+    background-color: white;
+    border: 2px solid #88A9B2;
+    border-radius: 2px;
+    border-collapse: collapse;
+}
+
 #menu{
     position: absolute;
     z-index: 6;

@@ -74,6 +74,50 @@ function closemenu(){
     document.getElementsByClassName('import-save')[0].value = "";
 }
 
+function parseURLParams(url) {
+    var queryStart = url.indexOf("?") + 1,
+        queryEnd   = url.indexOf("#") + 1 || url.length + 1,
+        query = url.slice(queryStart, queryEnd - 1),
+        pairs = query.replace(/\+/g, " ").split("&"),
+        parms = {}, i, n, v, nv;
+
+    if (query === url || query === "") return parms;
+
+    for (i = 0; i < pairs.length; i++) {
+        nv = pairs[i].split("=", 2);
+        n = decodeURIComponent(nv[0]);
+        v = decodeURIComponent(nv[1]);
+
+        if (!parms.hasOwnProperty(n)) parms[n] = [];
+        parms[n].push(nv.length === 2 ? v : null);
+    }
+    return parms;
+}
+
+function setGetParam(key,value) {
+    if (history.pushState) {
+      var params = new URLSearchParams(window.location.search);
+      params.set(key, value);
+      var newUrl = window.location.origin 
+            + window.location.pathname 
+            + '?' + params.toString();
+      window.history.pushState({path:newUrl},'',newUrl);
+    }
+  }
+
+
+function changelink(){
+    let center = map.getCenter()
+    let Lat = center.lat
+    let Lng = center.lng
+    let zoom = map.getZoom()
+    setGetParam("zoom",zoom)
+    setGetParam("Lat",Lat)
+    setGetParam("Lng",Lng)
+}
+
+
+
 function wait(ms){
     var start = new Date().getTime();
     var end = start;
@@ -154,7 +198,19 @@ function importSave(){
     document.getElementsByClassName('import-save')[0].value = "";
 }
 
-var map = L.map('map').setView([47.0016, 2.8], 6.4);
+
+let url = window.location.href;
+let params = parseURLParams(url)
+console.log(url)
+console.log(params)
+
+if("Lat" in params && "Lng" in params && "zoom" in params){
+    var map = L.map('map').setView([params.Lat[0], params.Lng[0]], params.zoom[0]);
+}
+else{
+    var map = L.map('map').setView([47.0016, 2.8], 6.4);
+}
+
 // Définit la carte utilisé (openstreetmap)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'<a href="https://tinder.com/@enzodeg40">Enzo Degraeve</a> | <a href="https://pierron.iiens.net"> Hugo Pierron </a>'}).addTo(map);
 

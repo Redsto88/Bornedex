@@ -224,4 +224,7 @@ var bornes = [
     {"id":220, "nom": "Eglise de Chevry-Cossigny", "x": "48.7249552062767", "y": "2.657260048963047", "alt": "101" },
     {"id":221, "nom": "Eglise de Linthelles", "x": "48.71605615051701", "y": "3.8216444614096177", "alt": "101.63" },
     {"id":222, "nom": "Rue de Sézanne Linthelles", "x": "48.716555", "y": "3.818670", "alt": "102.01" },
+    {"id":223, "nom": "Maison Praye", "x": "48.43369751821106", "y": "6.103512069506479", "alt": "310" },
+    {"id":224, "nom": "Maison Tantonville", "x": "48.46908885111301", "y": "6.146842394694886", "alt": "inconnue" },
+    {"id":225, "nom": "Mairie Neuviller-sur-Moselle", "x": "48.49298499392965", "y": "6.289264912667959", "alt": "245.545" },
 ]
