@@ -106,14 +106,9 @@ function setGetParam(key,value) {
   }
 
 
-function changelink(){
-    let center = map.getCenter()
-    let Lat = center.lat
-    let Lng = center.lng
-    let zoom = map.getZoom()
-    setGetParam("zoom",zoom)
-    setGetParam("Lat",Lat)
-    setGetParam("Lng",Lng)
+function copylink(){
+    navigator.clipboard.writeText(window.location.href);
+    alert("Lien copié !")
 }
 
 
@@ -143,8 +138,10 @@ function wait(ms){
         bin += currentBin;
       }
     );
-  
-    return bin;
+    if(bin.length-bornes.length>3){
+        return bin
+    }
+    return bin.slice(0,bornes.length);
   }
   
   function bin2hex(bin) {
@@ -156,7 +153,7 @@ function wait(ms){
       let currentHex = (parseInt(eightBits, 2)).toString(16).toUpperCase();
       hex += currentHex;
     }
-  
+    
     return hex;
   }
 
@@ -180,8 +177,6 @@ function exportSave(){
 function importSave(){
     var save = document.getElementsByClassName('import-save')[0].value;
     save = hex2bin(save)
-    console.log(save.length);
-    console.log(bornes.length);
     if(save.length == bornes.length){
         for(var i = 0; i < bornes.length; i++){
             if(save[i] == "1"){
@@ -201,8 +196,6 @@ function importSave(){
 
 let url = window.location.href;
 let params = parseURLParams(url)
-console.log(url)
-console.log(params)
 
 if("Lat" in params && "Lng" in params && "zoom" in params){
     var map = L.map('map').setView([params.Lat[0], params.Lng[0]], params.zoom[0]);
@@ -293,3 +286,11 @@ updateBorne();
 document.getElementsByClassName('leaflet-control-zoom leaflet-bar leaflet-control')[0].style.marginTop = "50px";
 
 
+map.on('moveend', function(){
+    var url = window.location.href;
+    var params = parseURLParams(url)
+    params.Lat = map.getCenter().lat;
+    params.Lng = map.getCenter().lng;
+    params.zoom = map.getZoom();
+    window.history.pushState("", "", '?' + Object.keys(params).map(key => key + '=' + params[key]).join('&'));
+});
