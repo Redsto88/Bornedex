@@ -70,7 +70,7 @@ function closemenu(){
     document.getElementById('menu').style.width = "0px";
     document.getElementById('menu-container').style.display = "none";
     document.getElementById('menu').style.borderRight = "#172741 solid 0px"
-    document.getElementById('copie').innerHTML = "";
+    document.getElementById('message').innerHTML = " ";
     document.getElementsByClassName('import-save')[0].value = "";
 }
 
@@ -96,19 +96,19 @@ function parseURLParams(url) {
 
 function setGetParam(key,value) {
     if (history.pushState) {
-      var params = new URLSearchParams(window.location.search);
-      params.set(key, value);
-      var newUrl = window.location.origin 
+        var params = new URLSearchParams(window.location.search);
+        params.set(key, value);
+        var newUrl = window.location.origin 
             + window.location.pathname 
             + '?' + params.toString();
-      window.history.pushState({path:newUrl},'',newUrl);
+        window.history.pushState({path:newUrl},'',newUrl);
     }
-  }
+}
 
 
 function copylink(){
     navigator.clipboard.writeText(window.location.href);
-    alert("Lien copié !")
+    document.getElementById('message').innerHTML = "URL copiée dans le presse-papier !";
 }
 
 
@@ -117,17 +117,16 @@ function wait(ms){
     var start = new Date().getTime();
     var end = start;
     while(end < start + ms) {
-      end = new Date().getTime();
-   }
- }
+        end = new Date().getTime();
+    }
+}
 
 
- function hex2bin(hex) {
+function hex2bin(hex) {
     let bin = "";
     let bitsInHex = 4;
   
-    Array.from(hex).forEach(
-      function (char) {
+    Array.from(hex).forEach(function (char) {
         let currentBin = parseInt(char, 16).toString(2);
   
         if (currentBin.length < bitsInHex) {
@@ -136,26 +135,27 @@ function wait(ms){
         }
   
         bin += currentBin;
-      }
-    );
+    });
+
     if(bin.length-bornes.length>3){
         return bin
     }
+
     return bin.slice(0,bornes.length);
-  }
+}
   
-  function bin2hex(bin) {
+function bin2hex(bin) {
     let hex = "";
     let bitsInHex = 4;
   
     for (let i = 0; i < bin.length; i = i + bitsInHex) {
-      let eightBits = bin.substr(i, bitsInHex);
-      let currentHex = (parseInt(eightBits, 2)).toString(16).toUpperCase();
-      hex += currentHex;
+        let eightBits = bin.substr(i, bitsInHex);
+        let currentHex = (parseInt(eightBits, 2)).toString(16).toUpperCase();
+        hex += currentHex;
     }
     
     return hex;
-  }
+}
 
 
 function exportSave(){
@@ -170,7 +170,7 @@ function exportSave(){
     }
     save = bin2hex(save)
     navigator.clipboard.writeText(save);
-    document.getElementById('copie').innerHTML = "Copié dans le presse-papier !";
+    document.getElementById('message').innerHTML = "Sauvegarde copiée dans le presse-papier !";
 }
 
 
@@ -186,9 +186,11 @@ function importSave(){
                 definitDecouverteBorne(i, false);
             }
         }
+
+        document.getElementById('message').innerHTML = "Sauvegarde importée avec succès !";
     }
     else{
-        alert("Sauvegarde invalide");
+        document.getElementById('message').innerHTML = "Sauvegarde invalide";
     }
     document.getElementsByClassName('import-save')[0].value = "";
 }
@@ -277,7 +279,7 @@ inputlist.addEventListener('change', (event) => {
                 map.flyTo([borne.x, borne.y], 17);
                 return;
             }
-    }
+        }
     });
 });
 

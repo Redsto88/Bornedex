@@ -81,7 +81,7 @@ img{
     height: 100vh;
 }
 #blanchaut{
-    height: 60px;
+    height: 120px;
 }
 
 #menu>*{
@@ -91,20 +91,33 @@ img{
 
 #menu-container{
     display: none;
-    padding: 5px;
-    height: calc(100vh - 10px);
+    padding: 10px;
+    height: calc(100vh - 20px);
     max-height: 100%;
     flex-direction: column;
     color : white;
 }
 
+#menu-container button{
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
 
-#copie{
+#menu-container button:hover{
+    cursor: pointer;
+}
+
+#message{
     margin-top: 5px;
-    min-height: 18px;
+    min-height: 38px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 .export-save{
+    margin: 5px;
     border-radius: 5px;
 }
 
@@ -114,14 +127,13 @@ img{
 }
 
 .import-save{
-    margin-top: 15px;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .raz{
-    padding : 10px;
-    margin: 5px 0;
-    border: none;
-    border-radius: 5px;
     background-color: #FF7878;
 }
 
@@ -142,11 +154,10 @@ img{
 
 
 #compteur{
-
     background-color: white;
     padding : 10px;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0;
     color : black;
 }
 
