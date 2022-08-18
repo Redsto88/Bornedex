@@ -228,4 +228,6 @@ var bornes = [
     {"id":224, "nom": "Maison Tantonville", "x": "48.46908885111301", "y": "6.146842394694886", "alt": "inconnue" },
     {"id":225, "nom": "Mairie Neuviller-sur-Moselle", "x": "48.49298499392965", "y": "6.289264912667959", "alt": "245.545" },
     {"id":226, "nom": "Église Saint-Maurice Lille", "x": "50.635727729542204", "y": "3.0669594733734047", "alt": "20,825" },
+    {"id":227, "nom": "Porte de Paris Lille", "x": "50.629724509925", "y": "3.0688286895351746", "alt": "22,53" },
+    {"id":228, "nom": "Théâtre du nord Lille Lille", "x": "50.636437323164515", "y": "3.063837341501822", "alt": "20,980" },
 ]
