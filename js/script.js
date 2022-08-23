@@ -21,6 +21,13 @@ function definitDecouverteBorne(num, decouverte){
     updateBorne();
 }
 
+function copyLinkBorne(i){
+    lien = window.location.origin + window.location.pathname + '?' +"borne="+i
+    navigator.clipboard.writeText(lien);
+    window.location.href = lien
+}
+
+
 function updateBorne(){
     // Pour chaque borne
     compteurtrouvee=0;
@@ -199,12 +206,30 @@ function importSave(){
 let url = window.location.href;
 let params = parseURLParams(url)
 
-if("Lat" in params && "Lng" in params && "zoom" in params){
+
+if ("borne" in params)
+{
+    console.log(params.borne)
+    if (params.borne != "" && params.borne<=bornes.length && params.borne>=0){
+        borne = bornes[params.borne]
+        posX=parseFloat(borne.x)+0.02
+        var map = L.map('map').setView([posX, borne.y], 14);
+    }
+    else if("Lat" in params && "Lng" in params && "zoom" in params){
+        var map = L.map('map').setView([params.Lat[0], params.Lng[0]], params.zoom[0]);
+    }
+    else{
+        var map = L.map('map').setView([47.0016, 2.8], 6.4);
+    }
+}
+else if("Lat" in params && "Lng" in params && "zoom" in params){
     var map = L.map('map').setView([params.Lat[0], params.Lng[0]], params.zoom[0]);
 }
 else{
     var map = L.map('map').setView([47.0016, 2.8], 6.4);
 }
+
+
 
 // Définit la carte utilisé (openstreetmap)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'<a href="https://tinder.com/@enzodeg40">Enzo Degraeve</a> | <a href="https://pierron.iiens.net"> Hugo Pierron </a>'}).addTo(map);
@@ -256,6 +281,10 @@ bornes.forEach(borne => {
                 <div class="option" onclick="definitDecouverteBorne(${i}, true)">
                     <img src="img/done.svg" alt="Découverte">
                 </div>
+
+                <div class="option" onclick="copyLinkBorne(${i})">
+                    <img src="img/link.svg" alt="lien">
+                </div>
             </div>
         `);
 
@@ -267,6 +296,13 @@ bornes.forEach(borne => {
 });
 
 document.getElementById('total').innerHTML = "Total : " + bornes.length;
+
+
+if ("borne" in params){
+    if (params.borne != "" && params.borne<=bornes.length && params.borne>=0){
+        markers[params.borne].openPopup()
+    }
+}
 
 // Définit l'input
 const inputlist = document.querySelector('.inputlist');
@@ -294,5 +330,6 @@ map.on('moveend', function(){
     params.Lat = map.getCenter().lat;
     params.Lng = map.getCenter().lng;
     params.zoom = map.getZoom();
-    window.history.pushState("", "", '?' + Object.keys(params).map(key => key + '=' + params[key]).join('&'));
+    params.borne=-1
+    window.history.replaceState("", "", '?' + Object.keys(params).map(key => key + '=' + params[key]).join('&' ));
 });
