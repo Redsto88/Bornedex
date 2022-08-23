@@ -323,13 +323,17 @@ updateBorne();
 
 document.getElementsByClassName('leaflet-control-zoom leaflet-bar leaflet-control')[0].style.marginTop = "50px";
 
-
+// Lors du déplacement sur la carte
 map.on('moveend', function(){
+    // Récupère l'url
     var url = window.location.href;
     var params = parseURLParams(url)
+    // Met à jour les entêtes
     params.Lat = map.getCenter().lat;
     params.Lng = map.getCenter().lng;
     params.zoom = map.getZoom();
-    params.borne=-1
+    // Supprime les entêtes inutiles
+    delete params.borne;
+    // Modifie l'url avec les nouvelles entêtes
     window.history.replaceState("", "", '?' + Object.keys(params).map(key => key + '=' + params[key]).join('&' ));
 });
