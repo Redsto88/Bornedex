@@ -299,7 +299,7 @@ bornes.forEach(borne => {
 document.getElementById('total').innerHTML = "Total : " + bornes.length;
 
 if ("borne" in params){
-    if (params.borne != "" && params.borne<=bornes.length && params.borne>=0){
+    if (params.borne != "" && params.borne<bornes.length && params.borne>=0){
         markers[params.borne].openPopup()
     }
 }
