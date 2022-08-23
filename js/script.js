@@ -210,7 +210,8 @@ let params = parseURLParams(url)
 if ("borne" in params)
 {
     console.log(params.borne)
-    if (params.borne != "" && params.borne<=bornes.length && params.borne>=0){
+    console.log(bornes.length)
+    if (params.borne != "" && params.borne<bornes.length && params.borne>=0){
         borne = bornes[params.borne]
         posX=parseFloat(borne.x)+0.02
         var map = L.map('map').setView([posX, borne.y], 14);
@@ -296,7 +297,6 @@ bornes.forEach(borne => {
 });
 
 document.getElementById('total').innerHTML = "Total : " + bornes.length;
-
 
 if ("borne" in params){
     if (params.borne != "" && params.borne<=bornes.length && params.borne>=0){
