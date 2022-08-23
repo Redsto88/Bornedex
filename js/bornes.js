@@ -235,4 +235,6 @@ var bornes = [
     {"id":231, "nom": "Office du tourisme Hyères", "x": "43.11992027141953", "y": "6.130933392790056", "alt": "inconnue" },
     {"id":232, "nom": "Porte Massillon Hyères", "x": "43.12072141596795", "y": "6.130726357376559", "alt": "inconnue" },
     {"id":233, "nom": "Hôtel de Ville Hyères", "x": "43.11999823353953", "y": "6.130301758195966", "alt": "inconnue" },
+    {"id":234, "nom": "Clocher Saint Barthélémy", "x": "48.54169845565036", "y": "2.6558232617648816", "alt": "69.64" },
+    {"id":235, "nom": "Église Saint-Aspais de Melun", "x": "48.538917595005756", "y": "2.659507831829803", "alt": "inconnue" },
 ]
