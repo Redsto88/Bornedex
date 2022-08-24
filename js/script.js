@@ -337,3 +337,38 @@ map.on('moveend', function(){
     // Modifie l'url avec les nouvelles entêtes
     window.history.replaceState("", "", '?' + Object.keys(params).map(key => key + '=' + params[key]).join('&' ));
 });
+
+// Récupère la borne la plus haute en altitude
+var BorneMaxAlt = 0;
+var BorneMinAlt = Infinity;
+var BorneMaxId = 0;
+var BorneMinId = 0;
+bornes.forEach(borne => {
+    if (borne.y!=0 && borne.alt!="inconnue"){
+        var alt = parseFloat(borne.alt.replace(",", "."));
+        if(alt == NaN){
+            return;
+        }
+        if (alt > BorneMaxAlt){
+            BorneMaxAlt = alt;
+            BorneMaxId = borne.id;
+        }
+        else if (alt < BorneMinAlt){
+            BorneMinAlt = alt;
+            BorneMinId = borne.id;
+        }
+    }
+});
+// Met a jour le menu 
+document.getElementById('borne-haute').innerHTML = "Borne la plus haute : " + BorneMaxAlt + " mètres";
+document.getElementById('borne-basse').innerHTML = "Borne la plus basse : " + BorneMinAlt + " mètres";
+
+document.getElementById('borne-haute').onclick = function(){
+    map.flyTo([bornes[BorneMaxId].x, bornes[BorneMaxId].y], 17);
+    markers[BorneMaxId].openPopup();
+}
+
+document.getElementById('borne-basse').onclick = function(){
+    map.flyTo([bornes[BorneMinId].x, bornes[BorneMinId].y], 17);
+    markers[BorneMinId].openPopup();
+}
