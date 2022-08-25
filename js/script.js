@@ -263,6 +263,14 @@ var i = 0
 bornes.forEach(borne => {
 
     if (borne.y!=0){
+        // Gère le bouton wikipédia
+        let borneLinkWiki = "#";
+        let borneStyleWiki = 'style="display:none"';
+        if(borne.wiki != undefined){
+            borneLinkWiki = borne.wiki;
+            borneStyleWiki = "";
+        }
+
         markers[i] = L.marker([(borne.x == 0) ? i : borne.x, borne.y], { icon: borneNonDecouverte })
         .addTo(map).bindPopup(`
             <img onclick="ouvre(${i})" src="bornes/${borne.id}.jpg" alt ="${borne.nom}" ><br/>
@@ -274,7 +282,11 @@ bornes.forEach(borne => {
                 <a class="option" href="https://www.google.com/maps/search/?api=1&query=${borne.x}, ${borne.y}" target="_blank">
                     <img src="img/google_maps.svg" alt="Google maps">
                 </a>
-                
+
+                <a class="option" ${borneStyleWiki} href="${borneLinkWiki}" target="_blank">
+                    <img src="img/wikipedia.svg" alt="Wikipedia">
+                </a>
+
                 <div class="option" onclick="definitDecouverteBorne(${i}, false)">
                     <img src="img/none.svg" alt="Non découverte">
                 </div>
@@ -372,3 +384,37 @@ document.getElementById('borne-basse').onclick = function(){
     map.flyTo([bornes[BorneMinId].x, bornes[BorneMinId].y], 17);
     markers[BorneMinId].openPopup();
 }
+
+
+// Classe les villes par nombr de bornes
+var villes = [];
+
+bornes.forEach(borne => {
+    if (borne.y!=0){
+        if(borne.ville != undefined){
+            // Si la liste est vide
+            if(villes.length == 0){
+                // Push avec l'index de la ville
+                villes.push([borne.ville, '1']);
+            }
+            // Sinon si la ville est déjà dans la liste
+            else if(villes.find(ville => ville[0] == borne.ville)){
+                // On incrémente le nombre de bornes de la ville
+                var index = villes.findIndex(ville => ville[0] == borne.ville);
+                villes[index][1] = parseInt(villes[index][1]) + 1;
+            }
+            // Sinon si la ville n'est pas dans la liste
+            else{
+                // Push avec l'index de la ville
+                villes.push([borne.ville, 1]);
+            }
+        }
+    }
+});
+
+// Tri la liste par nombre de bornes
+villes.sort(function(a, b){
+    return b[1] - a[1];
+});
+
+console.log(villes);
