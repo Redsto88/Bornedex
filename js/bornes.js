@@ -229,7 +229,7 @@ var bornes = [
     {"id":225, "nom": "Mairie Neuviller-sur-Moselle", "x": "48.49298499392965", "y": "6.289264912667959", "alt": "245.545" },
     { "id": 226, "nom": "Église Saint-Maurice Lille", "x": "50.635727729542204", "y": "3.0669594733734047", "alt": "20,825", "ville": "Lille", "wiki":"https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Maurice_de_Lille" },
     {"id":227, "nom": "Porte de Paris Lille", "x": "50.629724509925", "y": "3.0688286895351746", "alt": "22,53" },
-    {"id":228, "nom": "Théâtre du nord Lille Lille", "x": "50.636437323164515", "y": "3.063837341501822", "alt": "20.980" },
+    {"id":228, "nom": "Théâtre du nord Lille", "x": "50.636437323164515", "y": "3.063837341501822", "alt": "20.980" },
     {"id":229, "nom": "Rue du Lavoir de Maincy", "x": "48.55003597482087", "y": "2.701338910654465", "alt": "83.45" },
     {"id":230, "nom": "Hôtel de ville Bruxelles", "x": "50.84616263176381", "y": "4.351697999709192", "alt": "21.15" },
     {"id":231, "nom": "Office du tourisme Hyères", "x": "43.11992027141953", "y": "6.130933392790056", "alt": "inconnue" },
@@ -241,4 +241,6 @@ var bornes = [
     { "id": 237, "nom": "Place du Puits de l'Échelle de Châtelet-en-Brie", "x": "48.50390885450965", "y": "2.792836470761182", "alt": "86.72", "ville": "Le Châtelet-en-Brie" },
     { "id": 238, "nom": "Chapelle Sainte-Reine de Châtelet-en-Brie", "x": "48.50246242201866", "y": "2.794911003592093", "alt": "87", "ville": "Le Châtelet-en-Brie" },
     { "id": 239, "nom": "Pont du Ru de Chatelet", "x": "48.50283856424969", "y": "2.7942852805504126", "alt": "inconnue", "ville": "Le Châtelet-en-Brie" },
+    { "id": 240, "nom": "Rue du Lavoir de Maincy", "x": "48.550075", "y": "2.701378", "alt": "63.45", "ville": "Maincy" },
+    { "id": 241, "nom": "Eglise Saint-Étienne de Maincy", "x": "48.550427597113874", "y": "2.699498827856823", "alt": "inconnue", "ville": "Maincy" },
 ]
