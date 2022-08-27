@@ -237,4 +237,8 @@ var bornes = [
     {"id":233, "nom": "Hôtel de Ville Hyères", "x": "43.11999823353953", "y": "6.130301758195966", "alt": "inconnue" },
     { "id": 234, "nom": "Clocher Saint Barthélémy", "x": "48.54169845565036", "y": "2.6558232617648816", "alt": "69.64", "ville": "Melun", "wiki": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Barth%C3%A9lemy_de_Melun" },
     { "id": 235, "nom": "Église Saint-Aspais de Melun", "x": "48.538917595005756", "y": "2.659507831829803", "alt": "inconnue", "ville": "Melun", "wiki":"https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Aspais_de_Melun" },
+    { "id": 236, "nom": "Mairie de Châtelet-en-Brie", "x": "48.50491601577713", "y": "2.7947394070931835", "alt": "90", "ville": "Le Châtelet-en-Brie" },
+    { "id": 237, "nom": "Place du Puits de l'Échelle de Châtelet-en-Brie", "x": "48.50390885450965", "y": "2.792836470761182", "alt": "86.72", "ville": "Le Châtelet-en-Brie" },
+    { "id": 238, "nom": "Chapelle Sainte-Reine de Châtelet-en-Brie", "x": "48.50246242201866", "y": "2.794911003592093", "alt": "87", "ville": "Le Châtelet-en-Brie" },
+    { "id": 239, "nom": "Pont du Ru de Chatelet", "x": "48.50283856424969", "y": "2.7942852805504126", "alt": "inconnue", "ville": "Le Châtelet-en-Brie" },
 ]
