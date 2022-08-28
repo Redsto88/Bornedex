@@ -241,5 +241,5 @@ var bornes = [
     { "id": 237, "nom": "Place du Puits de l'Échelle de Châtelet-en-Brie", "x": "48.50390885450965", "y": "2.792836470761182", "alt": "86.72", "ville": "Le Châtelet-en-Brie" },
     { "id": 238, "nom": "Chapelle Sainte-Reine de Châtelet-en-Brie", "x": "48.50246242201866", "y": "2.794911003592093", "alt": "87", "ville": "Le Châtelet-en-Brie" },
     { "id": 239, "nom": "Pont du Ru de Chatelet", "x": "48.50283856424969", "y": "2.7942852805504126", "alt": "inconnue", "ville": "Le Châtelet-en-Brie" },
-    { "id": 241, "nom": "Eglise Saint-Étienne de Maincy", "x": "48.550427597113874", "y": "2.699498827856823", "alt": "inconnue", "ville": "Maincy" },
+    { "id": 240, "nom": "Église Saint-Étienne de Maincy", "x": "48.550427597113874", "y": "2.699498827856823", "alt": "inconnue", "ville": "Maincy" },
 ]
