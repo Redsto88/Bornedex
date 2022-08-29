@@ -242,4 +242,15 @@ var bornes = [
     { "id": 238, "nom": "Chapelle Sainte-Reine de Châtelet-en-Brie", "x": "48.50246242201866", "y": "2.794911003592093", "alt": "87", "ville": "Le Châtelet-en-Brie" },
     { "id": 239, "nom": "Pont du Ru de Chatelet", "x": "48.50283856424969", "y": "2.7942852805504126", "alt": "inconnue", "ville": "Le Châtelet-en-Brie" },
     { "id": 240, "nom": "Église Saint-Étienne de Maincy", "x": "48.550427597113874", "y": "2.699498827856823", "alt": "inconnue", "ville": "Maincy" },
+
+    { "id": 241, "nom": "Ferme lieu dit Pointe Pierre", "x": "45.81653735846607", "y": "2.0305193126940964", "alt": "738", "ville": "Gentilloux Pigerolles" },
+    { "id": 242, "nom": "Buse sortie Pointe Pierre", "x": "45.81775334271881", "y": "2.0327293917973024", "alt": "752", "ville": "Gentilloux Pigerolles" },
+    { "id": 243, "nom": "Pilier en Caillou croisement D992 et D26 La Nouaille", "x": "45.81904285573936", "y": "2.0417334233233095", "alt": "772.509", "ville": "La Nouaille" },
+    { "id": 244, "nom": "Angle rue de la Forge Millevache", "x": "45.641181920434335", "y": "2.095107428640484", "alt": "909", "ville": "Millevache" },
+    { "id": 245, "nom": "Cimetière Millevache", "x": "45.644768491780866", "y": "2.0934220856538186", "alt": "928", "ville": "Millevache" },
+    { "id": 246, "nom": "Église Feniers", "x": "45.749533770836955", "y": "2.1260883001300965", "alt": "832", "ville": "Feniers" },
+    { "id": 247, "nom": "Église Jeanménil", "x": "48.335374971262596", "y": "6.687566000603827", "alt": "inconnue", "ville": "Jeanménil" },
+    { "id": 248, "nom": "Lieu dit le Poteau de Maussac", "x": "45.467609765860864", "y": "2.143525120077443", "alt": "600", "ville": "Maussac" },
+    { "id": 249, "nom": "Rue de la Forge Millevache", "x": "45.641032464610774", "y": "2.095344099997953", "alt": "907", "ville": "Millevache" },
+    { "id": 250, "nom": "Rue principale Millevache", "x": "45.64177408503842", "y": "2.0948910842409156", "alt": "911", "ville": "Millevache" },
 ]

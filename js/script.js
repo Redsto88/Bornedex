@@ -209,8 +209,6 @@ let params = parseURLParams(url)
 
 if ("borne" in params)
 {
-    console.log(params.borne)
-    console.log(bornes.length)
     if (params.borne != "" && params.borne<bornes.length && params.borne>=0){
         borne = bornes[params.borne]
         posX=parseFloat(borne.x)+0.02
