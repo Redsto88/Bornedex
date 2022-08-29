@@ -3,7 +3,7 @@ var bornes = [
     /*{ "nom": "Random bâtiment Strasbourg", "x": "0", "y": "0", "alt": "0" },*/
     { "id": 0, "nom": "Boulangerie campaillette Dijon", "x": "47.324377426803196", "y": "5.029040749716927", "alt": "251.997", "ville":"Dijon" },
     { "id": 1, "nom": "Hôtel de Bretagne Dijon", "x": "47.31988636288924", "y": "5.040121982996752", "alt": "243.564", "ville": "Dijon", "wiki":"https://fr.wikipedia.org/wiki/H%C3%B4tel_de_Bretagne" },
-    { "id": 2, "nom": "Porte Stanislas Nancy", "x": "48.69115585206748", "y": "6.17552904382446", "alt": "246", "ville": "Nancy", "wiki":"https://fr.wikipedia.org/wiki/Place_Stanislas" },
+    { "id": 2, "nom": "Porte Stanislas Nancy", "x": "48.69115585206748", "y": "6.17552904382446", "alt": "246", "ville": "Nancy"},
     { "id": 3, "nom": "Arc héré Nancy", "x": "48.69441572905896", "y": " 6.18268347019083", "alt": "inconnue", "ville": "Nancy", "wiki":"https://fr.wikipedia.org/wiki/Arc_H%C3%A9r%C3%A9" },
     { "id": 4, "nom": "Porte Guillaume", "x": "47.323302114219", "y": "5.0347434178908985", "alt": "245.807", "ville": "Dijon", "wiki":"https://fr.wikipedia.org/wiki/Porte_Guillaume_(Dijon)" },
     { "id": 5, "nom": "Banque LCL Tulle", "x": "45.266338188125495", "y": "1.7705654100440575", "alt": "inconnue", "ville":"Tulle" },    
@@ -41,7 +41,7 @@ var bornes = [
     {"id":37, "nom": "Institut de Paris 1", "x": "48.857787576625824", "y": "2.3364224738562243", "alt": "inconnue" },
     {"id":38, "nom": "Institut de Paris 2", "x": "48.85720219314348", "y": "2.3365549728264394", "alt": "inconnue" },
     {"id":39, "nom": "L'église de saint Pierre ès liens, Saint Pierre Cherignat", "x": "45.974090620103155", "y": "1.606493555451288", "alt": "inconnue" },
-    {"id":40, "nom": "Mairie Nancy", "x": "48.69318046422626", "y": "6.183653929288364", "alt": "201" },
+    {"id":40, "nom": "Mairie Nancy", "x": "48.69318046422626", "y": "6.183653929288364", "alt": "201" , "wiki":"https://fr.wikipedia.org/wiki/Place_Stanislas" },
     {"id":41, "nom": "Mairie de Boussac", "x": "46.34810462066158", "y": "2.2139764127809056", "alt": "377" },
     {"id":42, "nom": "Mairie de Brive-la-Gaillarde", "x": "45.15940591321425", "y": "1.5338746191322712", "alt": "114" },
     {"id":43, "nom": "Monument aux morts Col de Laléger", "x": "46.03894079812632", "y": "1.5900774492641307", "alt": "inconnue" },
