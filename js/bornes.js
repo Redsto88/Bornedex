@@ -257,4 +257,6 @@ var bornes = [
     {"id": 253, "nom": "Mairie de Crisenoy", "x": "48.595664", "y": "2.740600", "alt": "inconnue", "ville": "Crisenoy" },
     {"id": 254, "nom": "Cathédrale St Benigne Dijon", "x": "47.3226444", "y": "5.0382611", "alt": "244.363", "ville": "Dijon" },
     {"id": 255, "nom": "Les Halles Dijon", "x": "47.3243278", "y": "5.0389667", "alt": "245.162", "ville": "Dijon" },
+    { "id": 256, "nom": "Lyon croisement Vendome Servient", "x": "45.76016464390946", "y": "4.846754310851442", "alt": "inconnue", "ville": "Lyon" },
+    { "id": 257, "nom": "National 6 Chalon", "x": "46.777926", "y": "4.850924", "alt": "inconnue", "ville": "Chalon" },
 ]
