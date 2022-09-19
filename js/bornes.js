@@ -320,34 +320,13 @@ var bornes = [
     // 45.767500, 4.825556
     { "id": 276, "nom": "Quai de Pierre-Scize Lyon", "x": "45.767500", "y": "4.825556", "alt": "169.227", "ville": "Lyon" },
 
-    // 277
-    // Quai du général sarrail 
-    // 45°45'53'' N, 4°50'30'' E
-
-    // 278
-    // Eglise st Pothin 
-    // 45°45'58'' N, 4°50'45'' E
-
-    // 279
-    // Quai du général sarrail 
-    // 45.766589,4.841519
-
-    // 280
-    // Quai du général sarrail 
-    // 45°46'3'' N, 4°50'29'' E
-
-    // 281
-    // Rue Tronchet 
-    // 45°46'10'' N, 4°50'38'' E
-
-    // 282
-    // Rue Créqui 
-    // 45°46'11'' N, 4°50'45'' E
-
-    // 283
-    // Rue tronchet 
-    // 45°46'12'' N, 4°50'55'' E
-
+    { "id": 277, "nom": "Quai du Général Sarrail Lyon", "x": "45.76478009358828", "y": "4.841799725313317", "alt": "168.259", "ville": "Lyon" },
+    { "id": 278, "nom": "Église Saint-Pothin de Lyon", "x": "45.766094264567094", "y": "4.845621715384846", "alt": "169.578", "ville": "Lyon", "wiki": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Pothin_de_Lyon" },
+    { "id": 279, "nom": "Quai du Général Sarrail Lyon", "x": "45.76657832669932", "y": "4.841531789907226", "alt": "168.647", "ville": "Lyon" },
+    { "id": 280, "nom": "Quai du Général Sarrail Lyon", "x": "45.76762636901465", "y": "4.841370377441875", "alt": "169.446", "ville": "Lyon" },
+    { "id": 281, "nom": "Rue Tronchet Lyon", "x": "45.76952110339691", "y": "4.843554145414459", "alt": "169.655", "ville": "Lyon" },
+    { "id": 282, "nom": "Rue Créqui Lyon", "x": "45.76962716325675", "y": "4.846007295320168", "alt": "inconnue", "ville": "Lyon" },
+    { "id": 283, "nom": "Rue Tronchet Lyon", "x": "45.76988743162293", "y": "4.848756914323302", "alt": "169.343", "ville": "Lyon" },
     { "id": 284, "nom": "Rue Tronchet Lyon", "x": "45.77018834366377", "y": "4.852168531871875", "alt": "inconnue", "ville": "Lyon" },
     { "id": 285, "nom": "Rue du Canal Lyon", "x": "45.77144069219687", "y": "4.90401041560812", "alt": "171.256", "ville": "Lyon" },
 ]
