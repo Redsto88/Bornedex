@@ -259,41 +259,14 @@ var bornes = [
     {"id": 255, "nom": "Les Halles Dijon", "x": "47.3243278", "y": "5.0389667", "alt": "245.162", "ville": "Dijon" },
     { "id": 256, "nom": "Lyon croisement Vendome Servient", "x": "45.76016464390946", "y": "4.846754310851442", "alt": "inconnue", "ville": "Lyon" },
     { "id": 257, "nom": "National 6 Chalon", "x": "46.777926", "y": "4.850924", "alt": "inconnue", "ville": "Chalon" },
-    
     { "id": 258, "nom": "Rue Justin Godard Lyon", "x": "45.7759905244786", "y": "4.8360547410847206", "alt": "235,603", "ville": "Lyon" },
-
-    // 259
-    // Boulevard de la croix rousse
-    // 45.774167, 4.828056
     { "id": 259, "nom": "Boulevard de la Croix Rousse Lyon", "x": "45.774167", "y": "4.828056", "alt": "inconnue", "ville": "Lyon" },
-
-    // 260
-    // Rue Jacquard
-    // 45.775833, 4.825556
     { "id": 260, "nom": "Rue Jacquard Lyon", "x": "45.775833", "y": "4.825556", "alt": "251.255", "ville": "Lyon" },
-
-    // 261
-    // Pont masaryk 
-    // 45.778056, 4.810556
     { "id": 261, "nom": "Pont Masaryk Lyon", "x": "45.778056", "y": "4.810556", "alt": "170.821", "ville": "Lyon" },
-
-    // 262
-    // Rue masaryk
-    // 45.7787672, 4.8071006
     { "id": 262, "nom": "Rue Masaryk Lyon", "x": "45.7787672", "y": "4.8071006", "alt": "168.600", "ville": "Lyon" },
-
     { "id": 263, "nom": "Rue de Bourgogne Lyon", "x": "45.778906627043554", "y": "4.802074866772532", "alt": "inconnue", "ville": "Lyon" },
-
-    // 264
-    // Rue de Bourgogne
-    // 45.776667, 4.804167
     { "id": 264, "nom": "Rue de Bourgogne Lyon", "x": "45.776667", "y": "4.804167", "alt": "inconnue", "ville": "Lyon" },
-
-    // 265
-    // Rue de Bourgogne
-    // 45.775556, 4.805000
     { "id": 265, "nom": "Rue de Bourgogne Lyon", "x": "45.775556", "y": "4.805000", "alt": "169.177", "ville": "Lyon" },
-
     { "id": 266, "nom": "Rue Marieton Lyon", "x": "45.775257199447786", "y": "4.805062950877887", "alt": "169.196", "ville": "Lyon", "wiki": "https://fr.wikipedia.org/wiki/Rue_Marietton" },
     { "id": 267, "nom": "Place du Marché Lyon", "x": "45.77418274231527", "y": "4.8067880890190935", "alt": "inconnue", "ville": "Lyon" },
     { "id": 268, "nom": "Quai Saint Vincent Lyon", "x": "45.76947024118283", "y": "4.814655679870683", "alt": "inconnue", "ville": "Lyon" },
@@ -301,25 +274,10 @@ var bornes = [
     { "id": 270, "nom": "2 Place du Port-Neuville Lyon", "x": "45.76810513012359", "y": "4.821462017021566", "alt": "inconnue", "ville": "Lyon" },
     { "id": 271, "nom": "2 Place du Port-Neuville Lyon", "x": "45.76811401743283", "y": "4.821516331756255", "alt": "inconnue", "ville": "Lyon" },
     { "id": 272, "nom": "Quai Saint Vincent Lyon", "x": "45.76845124850508", "y": "4.824789437770332", "alt": "468.435", "ville": "Lyon" },
-
-    // 273
-    // Quai st Vincent
-    // 45°46'5'' N, 4°49'41'' E
-    // 169.220
-
-
-    // 274
-    // Quai de Bondy
-    // 45.767222, 4.827500
+    { "id": 273, "nom": "Quai Saint Vincent Lyon", "x": "45.768056", "y": "4.828056", "alt": "169.220", "ville": "Lyon" },
     { "id": 274, "nom": "Quai de Bondy Lyon", "x": "45.767222", "y": "4.827500", "alt": "inconnue", "ville": "Lyon" },
-
     { "id": 275, "nom": "Église Saint-Paul de Lyon", "x": "45.7664500170161", "y": "4.826921374240972", "alt": "inconnue", "ville": "Lyon", "wiki": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Paul_de_Lyon" },
-
-    // 276
-    // Quai de pierre-scize 
-    // 45.767500, 4.825556
     { "id": 276, "nom": "Quai de Pierre-Scize Lyon", "x": "45.767500", "y": "4.825556", "alt": "169.227", "ville": "Lyon" },
-
     { "id": 277, "nom": "Quai du Général Sarrail Lyon", "x": "45.76478009358828", "y": "4.841799725313317", "alt": "168.259", "ville": "Lyon" },
     { "id": 278, "nom": "Église Saint-Pothin de Lyon", "x": "45.766094264567094", "y": "4.845621715384846", "alt": "169.578", "ville": "Lyon", "wiki": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Pothin_de_Lyon" },
     { "id": 279, "nom": "Quai du Général Sarrail Lyon", "x": "45.76657832669932", "y": "4.841531789907226", "alt": "168.647", "ville": "Lyon" },
@@ -329,4 +287,6 @@ var bornes = [
     { "id": 283, "nom": "Rue Tronchet Lyon", "x": "45.76988743162293", "y": "4.848756914323302", "alt": "169.343", "ville": "Lyon" },
     { "id": 284, "nom": "Rue Tronchet Lyon", "x": "45.77018834366377", "y": "4.852168531871875", "alt": "inconnue", "ville": "Lyon" },
     { "id": 285, "nom": "Rue du Canal Lyon", "x": "45.77144069219687", "y": "4.90401041560812", "alt": "171.256", "ville": "Lyon" },
+    { "id": 286, "nom": "Rue Masséna Lyon", "x": "45.768128799549864", "y": "4.854499516490052", "alt": "inconnue", "ville": "Lyon" },
+    { "id": 288, "nom": "Rue Ney Lyon", "x": "45.76822230758329", "y": "4.855509977645377", "alt": "inconnue", "ville": "Lyon" },
 ]
