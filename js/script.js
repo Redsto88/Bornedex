@@ -231,7 +231,7 @@ else{
 
 
 // Définit la carte utilisé (openstreetmap)
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'<a href="https://tinder.com/@enzodeg40">Enzo Degraeve</a> | <a href="https://pierron.iiens.net"> Hugo Pierron </a>'}).addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'<a href="https://tinder.com/@enzodeg40">Enzo Degraeve</a> | <a href="https://pierron.iiens.net"> Hugo Pierron </a> | <a href="https://discord.gg/gvwmh3zSRx"> Discord </a>'}).addTo(map);
 
 var borneNonDecouverte = L.icon({
     iconUrl: 'lib/leaflet/images/marker-icon.png',
