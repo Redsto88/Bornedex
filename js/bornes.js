@@ -304,4 +304,6 @@ var bornes = [
     {"id":300, "nom": "Rue du Temple Paris", "x": "48.866667", "y": "2.361972", "alt": "inconnue", "ville": "Paris" },
     {"id":301, "nom": "Rue du Faubourg-du-Temple Paris", "x": "48.869878", "y": "2.370669", "alt": "inconnue", "ville": "Paris" },
     {"id":302, "nom": "Eglise Saint Pierre Tulle", "x": "45.270084790759974", "y": "1.773862429042178", "alt": "215", "ville": "Tulle" },
+    {"id":303, "nom": "Route Nationale 6 Chalon-sur-Saône", "x": "46.77680574095746", "y": "4.84828923631743", "alt": "inconnue", "ville": "Chalon-sur-Saône" },
+    {"id":304, "nom": "Hotel de Ville de Blotzheim", "x": "47.59975205377973", "y": "7.497624796001672", "alt": "inconnue", "ville": "Blotzheim" },
 ]
