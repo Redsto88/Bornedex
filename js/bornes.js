@@ -306,4 +306,6 @@ var bornes = [
     {"id":302, "nom": "Eglise Saint Pierre Tulle", "x": "45.270084790759974", "y": "1.773862429042178", "alt": "215", "ville": "Tulle" },
     {"id":303, "nom": "Route Nationale 6 Chalon-sur-Saône", "x": "46.77680574095746", "y": "4.84828923631743", "alt": "inconnue", "ville": "Chalon-sur-Saône" },
     {"id":304, "nom": "Hotel de Ville de Blotzheim", "x": "47.59975205377973", "y": "7.497624796001672", "alt": "inconnue", "ville": "Blotzheim" },
+    {"id":305, "nom": "Rue des Écoles Voisenon", "x": "48.57306318387707", "y": "2.664645981912464", "alt": "79.925", "ville": "Voisenon" },
+    {"id":306, "nom": "Rue des Closeaux Voisenon", "x": "48.57080992576458", "y": "2.6621086586344878", "alt": "76.53", "ville": "Voisenon" },
 ]

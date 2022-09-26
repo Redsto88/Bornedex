@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>BorneDex</title>
-        <link rel="stylesheet" href="lib/leaflet/leaflet.css"/>
-        <link rel="stylesheet" href="css/index.css"/>
-        <link rel="icon" href="ico.ico" />
-    </head>
-    <body>
-        <input class="inputlist" list="bornelist">
-        
-        <img class="menu-button" src="img/menu.svg" onclick="showmenu()"></img>
-        <div id="menu">
-            <div id="menu-container">
-                <div id ="blanchaut"></div>
-                <img class="menu-button" src="img/close_menu.svg" onclick="closemenu()"></img>
-                <img class="link-button" src="img/link.svg" onclick="copylink()"></img>
-                <input type="text" class="import-save" placeholder="Coller la sauvegarde ici...">
-                <button class="import-save-button" onclick="importSave()">Importer la sauvegarde</button>
-                <button class="export-save" onclick="exportSave()">Exporter la sauvegarde</button>
-                <div id="message"></div>
-                <div id ="blanc"></div>
-                <span id="borne-haute">La plus haute</span>
-                <span id="borne-basse">La plus basse</span>
-                <div id ="blanc"></div>
-                <button class="toutcocher" onclick="FullData()">Tout cocher</button>
-                <button class="raz" onclick="resetData()">Remise à zéro</button>
-                
-                
-                <div id="compteur">
-                    <div id="trouvee">0 trouvée(s)</div>
-                    <div id="total">Total : 0</div>
-                </div>
-            </div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Recensement communautaire des repères de nivellements">
+    <title>BorneDex</title>
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="icon" href="ico.ico" />
+</head>
+<body>
+    <input class="inputlist" list="bornelist">
+    <img class="menu-button" src="img/menu.svg" onclick="showmenu()" alt="menu"/>
+    <div id="menu">
+        <div id="menu-container">
+            <div id ="blanchaut"></div>
+            <img class="menu-button" src="img/close_menu.svg" onclick="closemenu()" alt="ferme menu"/>
+            <img class="link-button" src="img/link.svg" onclick="copylink()" alt="copier le lien"/>
+            <input type="text" class="import-save" placeholder="Coller la sauvegarde ici...">
+            <button class="import-save-button" onclick="importSave()">Importer la sauvegarde</button>
+            <button class="export-save" onclick="exportSave()">Exporter la sauvegarde</button>
+            <div id="message"></div>
+            <div id ="blanc"></div>
+            <span id="borne-haute">La plus haute</span>
+            <span id="borne-basse">La plus basse</span>
+            <div id ="blanc"></div>
+            <button class="toutcocher" onclick="FullData()">Tout cocher</button>
+            <button class="raz" onclick="resetData()">Remise à zéro</button>
             
+            
+            <div id="compteur">
+                <div id="trouvee">0 trouvée(s)</div>
+                <div id="total">Total : 0</div>
+            </div>
         </div>
         
-        <datalist id="bornelist"></datalist>
+    </div>
+    
+    <datalist id="bornelist"></datalist>
 
-        <div id="map"></div>
-        
-        <script src="lib/leaflet/leaflet.js"></script>
-        <script src="js/bornes.js"></script>
-        <script src="js/script.js"></script>       
-    </body>
+    <div id="map"></div>
+    
+    <script src="lib/leaflet/leaflet.js"></script>
+    <script src="js/bornes.js"></script>
+    <script src="js/script.js"></script>       
+</body>
 </html>
