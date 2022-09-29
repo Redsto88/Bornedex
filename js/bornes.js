@@ -308,4 +308,5 @@ var bornes = [
     {"id":304, "nom": "Hotel de Ville de Blotzheim", "x": "47.59975205377973", "y": "7.497624796001672", "alt": "inconnue", "ville": "Blotzheim" },
     {"id":305, "nom": "Rue des Écoles Voisenon", "x": "48.57306318387707", "y": "2.664645981912464", "alt": "79.925", "ville": "Voisenon" },
     {"id":306, "nom": "Rue des Closeaux Voisenon", "x": "48.57080992576458", "y": "2.6621086586344878", "alt": "76.53", "ville": "Voisenon" },
+    {"id":307, "nom": "Rue de la Madeleine Angers", "x": "47.464133", "y": "-0.542586", "alt": "45.30", "ville": "Angers" },
 ]
