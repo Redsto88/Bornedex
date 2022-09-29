@@ -309,4 +309,10 @@ var bornes = [
     {"id":305, "nom": "Rue des Écoles Voisenon", "x": "48.57306318387707", "y": "2.664645981912464", "alt": "79.925", "ville": "Voisenon" },
     {"id":306, "nom": "Rue des Closeaux Voisenon", "x": "48.57080992576458", "y": "2.6621086586344878", "alt": "76.53", "ville": "Voisenon" },
     {"id":307, "nom": "Rue de la Madeleine Angers", "x": "47.464133", "y": "-0.542586", "alt": "45.30", "ville": "Angers" },
+    {"id":308, "nom": "Pont Grande rue Lupcourt", "x": "48.611806", "y": "6.235500", "alt": "inconnue", "ville": "Lupcourt" },
+    {"id":309, "nom": "Route de Lupcourt Ville-en-Vermois", "x": "48.614625", "y": "6.253167", "alt": "inconnue", "ville": "Ville-en-Vermois" },
+    {"id":310, "nom": "Grande rue Ville-en-Vermois", "x": "48.611500", "y": "6.254139", "alt": "inconnue", "ville": "Ville-en-Vermois" },
+    {"id":311, "nom": "Route de Rosières, Pont Velle-sur-Moselle", "x": "48.529917", "y": "6.274806", "alt": "inconnue", "ville": "Velle-sur-Moselle" },
+    {"id":312, "nom": "Route de Rosières Velle-sur-Moselle", "x": "48.534194", "y": "6.275806", "alt": "inconnue", "ville": "Velle-sur-Moselle" },
+
 ]
