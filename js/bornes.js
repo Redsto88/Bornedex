@@ -314,5 +314,37 @@ var bornes = [
     {"id":310, "nom": "Grande rue Ville-en-Vermois", "x": "48.611500", "y": "6.254139", "alt": "inconnue", "ville": "Ville-en-Vermois" },
     {"id":311, "nom": "Route de Rosières, Pont Velle-sur-Moselle", "x": "48.529917", "y": "6.274806", "alt": "inconnue", "ville": "Velle-sur-Moselle" },
     {"id":312, "nom": "Route de Rosières Velle-sur-Moselle", "x": "48.534194", "y": "6.275806", "alt": "inconnue", "ville": "Velle-sur-Moselle" },
+    {"id":313, "nom": "Rue de la banque Chalon-sur-Saône", "x": "46.78381001224167", "y": "4.852305196268369", "alt": "179", "ville": "Chalon-sur-Saône" },
+    {"id":314, "nom": "Rue des 3 Maures Chalon-sur-Saône", "x": "46.78440396834847", "y": "4.854519486843489", "alt": "180", "ville": "Chalon-sur-Saône" },
 
+    // 315
+    // 46° 46' 56'' N 4° 51' 13'' E
+    // Rue général Leclerc
+    // 177 m
+
+    // 316
+    // 46° 46' 51'' N 4° 51' 13'' E
+    // Mairie de Châlon sur Saône
+    // 178 m
+
+    // 317
+    // 46° 46' 51'' N 4° 51' 13'' E
+    // Mairie de Châlon sur Saône
+    // 177 m
+
+    // 318
+    // 46° 46' 57'' N 4° 51' 18'' E
+    // Quai Gambetta
+    // 176 m
+
+    // 319
+    // 46.780136,4.859338
+    // Quai de la monnaie
+    // 182 m
+
+    // 320
+    // 46.780823,4.858136
+    // Quai des messageries
+    // 182 m
+    
 ]
