@@ -195,7 +195,7 @@ var bornes = [
     {"id":191, "nom": "Palais d'Orléans - Paris", "x": "48.83070767624404", "y": "2.3254646772684926", "alt": "inconnue" },
     {"id":192, "nom": "Jardin de l'Observatoire de Paris", "x": "48.83477433989855", "y": "2.3367628120823825", "alt": "inconnue" },
     {"id":193, "nom": "16b Av. René Coty - Paris", "x": "48.82999444933938", "y": "2.333828297673664", "alt": "inconnue" },
-    {"id":194, "nom": "Lirairie petit Limoges", "x": "45.83261957502892", "y": "1.2555999222043306", "alt": "284" },
+    {"id":194, "nom": "Librairie petit Limoges", "x": "45.83261957502892", "y": "1.2555999222043306", "alt": "284" },
     {"id":195, "nom": "Pouilly-le-Fort", "x": "48.584579228983664", "y": "2.6294435084912453", "alt": "80.53", "ville": "Vert-Saint-Denis", "wiki":"https://fr.wikipedia.org/wiki/Pouilly-le-Fort" },
     {"id":196, "nom": "Eglise - Réau", "x": "48.610369755252826", "y": "2.623171791993719", "alt": "90.605", "ville": "Réau" },
     {"id":197, "nom": "Ecole - Réau", "x": "48.612105535799685", "y": "2.6223960538030227", "alt": "inconnue", "ville": "Réau" },
@@ -346,11 +346,13 @@ var bornes = [
     // 46.780823,4.858136
     // Quai des messageries
     // 182 m
-    
+
     {"id":321, "nom": "Intersection D16 et D59 Saint-Marc-à-Loubaud", "x": "45.84860838797705", "y": "1.998813638883349", "alt": "705", "ville": "Saint-Marc-à-Loubaud" },
     {"id":322, "nom": "Pont Evrard D942 Ahun", "x": "46.080051535435295", "y": "2.0688807825296354", "alt": "inconnue", "ville": "Ahun" },
     {"id":323, "nom": "Rue sainte Jeanne chemin privatif Ahun", "x": "46.08813367947518", "y": "2.0477789164267057", "alt": "437.625", "ville": "Ahun" },
-    
+    {"id":324, "nom": "Église Jean-Baptiste de Belleville Paris", "x": "48.875306", "y": "2.389417", "alt": "inconnue", "ville": "Paris" },
+    {"id":325, "nom": "117 Rue de Belleville Paris", "x": "48.874667", "y": "2.388056", "alt": "inconnue", "ville": "Paris" },
+    {"id":326, "nom": "Crédit du Nord croisement rue de Belleville et rue des Pyrénées Paris", "x": "48.874102504173074", "y": "2.3857634627408015", "alt": "inconnue", "ville": "Paris" },
     
     
 ]
