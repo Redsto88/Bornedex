@@ -346,5 +346,15 @@ var bornes = [
     // 46.780823,4.858136
     // Quai des messageries
     // 182 m
+
+    // 321
+    // 45.84860838797705, 1.998813638883349 
+    // Intersection D16 et D59 Saint-Marc-à-Loubaud
+    // 705 m
+    {"id":321, "nom": "Intersection D16 et D59 Saint-Marc-à-Loubaud", "x": "45.84860838797705", "y": "1.998813638883349", "alt": "705", "ville": "Saint-Marc-à-Loubaud" },
+    {"id":322, "nom": "Pont Evrard D942 Ahun", "x": "46.080051535435295", "y": "2.0688807825296354", "alt": "inconnue", "ville": "Ahun" },
+    {"id":323, "nom": "Rue sainte Jeanne chemin privatif Ahun", "x": "46.08813367947518", "y": "2.0477789164267057", "alt": "437.625", "ville": "Ahun" },
+    
+    
     
 ]
