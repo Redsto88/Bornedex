@@ -316,11 +316,7 @@ var bornes = [
     {"id":312, "nom": "Route de Rosières Velle-sur-Moselle", "x": "48.534194", "y": "6.275806", "alt": "inconnue", "ville": "Velle-sur-Moselle" },
     {"id":313, "nom": "Rue de la banque Chalon-sur-Saône", "x": "46.78381001224167", "y": "4.852305196268369", "alt": "179", "ville": "Chalon-sur-Saône" },
     {"id":314, "nom": "Rue des 3 Maures Chalon-sur-Saône", "x": "46.78440396834847", "y": "4.854519486843489", "alt": "180", "ville": "Chalon-sur-Saône" },
-
-    // 315
-    // 46° 46' 56'' N 4° 51' 13'' E
-    // Rue général Leclerc
-    // 177 m
+    {"id":315, "nom": "Rue Général Leclerc Chalon-sur-Saône", "x": "46.78259942615077", "y": "4.853690933755315", "alt": "177", "ville": "Chalon-sur-Saône" },
 
     // 316
     // 46° 46' 51'' N 4° 51' 13'' E
