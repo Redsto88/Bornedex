@@ -353,6 +353,6 @@ var bornes = [
     {"id":324, "nom": "Église Jean-Baptiste de Belleville Paris", "x": "48.875306", "y": "2.389417", "alt": "inconnue", "ville": "Paris" },
     {"id":325, "nom": "117 Rue de Belleville Paris", "x": "48.874667", "y": "2.388056", "alt": "inconnue", "ville": "Paris" },
     {"id":326, "nom": "Crédit du Nord croisement rue de Belleville et rue des Pyrénées Paris", "x": "48.874102504173074", "y": "2.3857634627408015", "alt": "inconnue", "ville": "Paris" },
-    
+    {"id":327, "nom": "Place Lucien Auvert Melun", "x": "48.52905521179517", "y": "2.6614033784523654", "alt": "inconnue", "ville": "Melun" },
     
 ]
