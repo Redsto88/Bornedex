@@ -328,21 +328,9 @@ var bornes = [
     // Mairie de Châlon sur Saône
     // 177 m
 
-    // 318
-    // 46° 46' 57'' N 4° 51' 18'' E
-    // Quai Gambetta
-    // 176 m
-
-    // 319
-    // 46.780136,4.859338
-    // Quai de la monnaie
-    // 182 m
-
-    // 320
-    // 46.780823,4.858136
-    // Quai des messageries
-    // 182 m
-
+    {"id":318, "nom": "Quai Gambetta Chalon-sur-Saône", "x": "46.779722", "y": "4.855278", "alt": "176", "ville": "Chalon-sur-Saône" },
+    {"id":319, "nom": "Quai de la Monnaie Chalon-sur-Saône", "x": "46.78014109032269", "y": "4.859348336872852", "alt": "182", "ville": "Chalon-sur-Saône" },
+    {"id":320, "nom": "Quai des messageries Chalon-sur-Saône", "x": "46.780823", "y": "4.858136", "alt": "182", "ville": "Chalon-sur-Saône" },
     {"id":321, "nom": "Intersection D16 et D59 Saint-Marc-à-Loubaud", "x": "45.84860838797705", "y": "1.998813638883349", "alt": "705", "ville": "Saint-Marc-à-Loubaud" },
     {"id":322, "nom": "Pont Evrard D942 Ahun", "x": "46.080051535435295", "y": "2.0688807825296354", "alt": "inconnue", "ville": "Ahun" },
     {"id":323, "nom": "Rue sainte Jeanne chemin privatif Ahun", "x": "46.08813367947518", "y": "2.0477789164267057", "alt": "437.625", "ville": "Ahun" },
