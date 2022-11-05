@@ -338,5 +338,11 @@ var bornes = [
     {"id":325, "nom": "117 Rue de Belleville Paris", "x": "48.874667", "y": "2.388056", "alt": "inconnue", "ville": "Paris" },
     {"id":326, "nom": "Crédit du Nord croisement rue de Belleville et rue des Pyrénées Paris", "x": "48.874102504173074", "y": "2.3857634627408015", "alt": "inconnue", "ville": "Paris" },
     {"id":327, "nom": "Place Lucien Auvert Melun", "x": "48.52905521179517", "y": "2.6614033784523654", "alt": "inconnue", "ville": "Melun" },
-    
+    {"id":328, "nom": "Eglise de La Rochette", "x": "48.50754483535584", "y": "2.661977449804036", "alt": "inconnue", "ville": "La Rochette" },
+    {"id":329, "nom": "Eglise Saint Germain d'Auxerre Boissise-la-Bertrand", "x": "48.52693786265449", "y": "2.587908643249021", "alt": "51.04", "ville": "Boissise-la-Bertrand" },
+    {"id":330, "nom": "Barrage de Vives Eaux Boissise-la-Bertrand", "x": "48.523378034392415", "y": "2.5864909229068562", "alt": "39.706", "ville": "Boissise-la-Bertrand" },
+    {"id":331, "nom": "Rue des Vives Eaux Boissise-le-Roi", "x": "48.52056198015479", "y": "2.586581789059696", "alt": "39.862", "ville": "Boissise-le-Roi" },
+    {"id":332, "nom": "Église catholique Notre-Dame-des-Sept-Douleurs Bois-Grenier", "x": "50.64933666115512", "y": "2.8739406154863585", "alt": "19.08", "ville": "Bois-Grenier" },
+    {"id":333, "nom": "Hôtel de Ville d'Armentières", "x": "50.686469194448776", "y": "2.8824165663928083", "alt": "18", "ville": "Armentières" },
+    {"id":334, "nom": "Église Notre-Dame-de-la-Visitation Dammarie-les-Lys", "x": "48.514513918519086", "y": "2.63487739066654", "alt": "66", "ville": "Dammarie-les-Lys" },
 ]
