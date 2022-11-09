@@ -345,4 +345,6 @@ var bornes = [
     {"id":332, "nom": "Église catholique Notre-Dame-des-Sept-Douleurs Bois-Grenier", "x": "50.64933666115512", "y": "2.8739406154863585", "alt": "19.08", "ville": "Bois-Grenier" },
     {"id":333, "nom": "Hôtel de Ville d'Armentières", "x": "50.686469194448776", "y": "2.8824165663928083", "alt": "18", "ville": "Armentières" },
     {"id":334, "nom": "Église Notre-Dame-de-la-Visitation Dammarie-les-Lys", "x": "48.514513918519086", "y": "2.63487739066654", "alt": "66", "ville": "Dammarie-les-Lys" },
+    {"id":335, "nom": "Gare de Foug", "x": "48.67932201844062", "y": "5.7913577510457435", "alt": "244.361", "ville": "Foug" },
+    {"id":336, "nom": "Passage à niveau de Sorcy-St-Martin", "x": "48.724310846381776", "y": "5.654133891467147", "alt": "237.32", "ville": "Sorcy-Saint-Martin" },
 ]
