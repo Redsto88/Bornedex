@@ -347,4 +347,9 @@ var bornes = [
     {"id":334, "nom": "Église Notre-Dame-de-la-Visitation Dammarie-les-Lys", "x": "48.514513918519086", "y": "2.63487739066654", "alt": "66", "ville": "Dammarie-les-Lys" },
     {"id":335, "nom": "Gare de Foug", "x": "48.67932201844062", "y": "5.7913577510457435", "alt": "244.361", "ville": "Foug" },
     {"id":336, "nom": "Passage à niveau de Sorcy-St-Martin", "x": "48.724310846381776", "y": "5.654133891467147", "alt": "237.32", "ville": "Sorcy-Saint-Martin" },
+    {"id":337, "nom": "Cimetière de Loyasse Lyon", "x": "45.76362305770033", "y": "4.813179835434938", "alt": "inconnue", "ville": "Lyon" },
+    {"id":338, "nom": "Église de Saint-Just Lyon", "x": "45.75617381618911", "y": "4.820177514351208", "alt": "inconnue", "ville": "Lyon" },
+    {"id":339, "nom": "Fontaine de la rue de Trion Lyon", "x": "45.75610603006554", "y": "4.818516567613353", "alt": "inconnue", "ville": "Lyon" },
+    {"id":340, "nom": "3 Rue des Farges Lyon", "x": "45.75755536132851", "y": "4.8218770932160036", "alt": "inconnue", "ville": "Lyon" },
+    {"id":341, "nom": "31 Place Beauregard Lyon", "x": "45.75772321351942", "y": "4.82351129597774", "alt": "215.873", "ville": "Lyon" },
 ]
