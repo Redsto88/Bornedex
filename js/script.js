@@ -119,16 +119,6 @@ function copylink(){
 }
 
 
-
-function wait(ms){
-    var start = new Date().getTime();
-    var end = start;
-    while(end < start + ms) {
-        end = new Date().getTime();
-    }
-}
-
-
 function hex2bin(hex) {
     let bin = "";
     let bitsInHex = 4;
@@ -415,4 +405,11 @@ villes.sort(function(a, b){
     return b[1] - a[1];
 });
 
-console.log(villes);
+let classment = 1;
+villes.forEach(ville => {
+    if(ville[1] > 1){
+        console.log(`#${classment} ${ville[0]} (${ville[1]} bornes)`);
+        classment += 1;
+    }
+});
+//console.log(villes);

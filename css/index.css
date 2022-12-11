@@ -185,14 +185,14 @@ img{
 }
 
 
-#borne-haute, #borne-basse {
+#borne-haute, #borne-basse, #borne-classement {
     margin: 5px 0px;
     padding: 7.5px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-#borne-haute:hover, #borne-basse:hover {
+#borne-haute:hover, #borne-basse:hover, #borne-classement:hover {
     background-color: rgba(255, 255, 255, 0.2);
     cursor: pointer;
 }
