@@ -356,4 +356,7 @@ var bornes = [
     {"id":343, "nom": "Place Gailleton Lyon", "x": "45.75338876719196", "y": "4.833659922117416", "alt": "178.484", "ville": "Lyon" },
     {"id":344, "nom": "Chapelle Saint Thomas - Sainte Marie Lyon", "x": "45.7620190805107", "y": "4.822337202215089", "alt": "inconnue", "ville": "Lyon" },
     {"id":345, "nom": "Cimetière Lamorlaye", "x": "49.158667400150506", "y": "2.437864705194684", "alt": "38", "ville": "Lamorlaye" },
+    {"id":346, "nom": "Groupe scolaire Jean-Jaures Lyon", "x": "45.764225469009205", "y": " 4.850020819714849", "alt": "inconnue", "ville": "Lyon" },
+    {"id":347, "nom": "Gare de Pagny-sur-Meuse", "x": "48.6965487", "y": "5.7338464", "alt": "254.508", "ville": "Pagny-sur-Meuse" },
+    {"id":348, "nom": "Basilique Saint Martin d'Ainay de Lyon", "x": "45.753827854102106", "y": "4.827147639171597", "alt": "inconnue", "ville": "Lyon" },
 ]
