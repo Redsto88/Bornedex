@@ -359,4 +359,8 @@ var bornes = [
     {"id":346, "nom": "Groupe scolaire Jean-Jaures Lyon", "x": "45.764225469009205", "y": " 4.850020819714849", "alt": "inconnue", "ville": "Lyon" },
     {"id":347, "nom": "Gare de Pagny-sur-Meuse", "x": "48.6965487", "y": "5.7338464", "alt": "254.508", "ville": "Pagny-sur-Meuse" },
     {"id":348, "nom": "Basilique Saint Martin d'Ainay de Lyon", "x": "45.753827854102106", "y": "4.827147639171597", "alt": "inconnue", "ville": "Lyon" },
+    {"id":349, "nom": "Paroisse Saint-Polycarpe Lyon", "x": "45.769948257907", "y": "4.833825561971448", "alt": "186.580", "ville": "Lyon"},
+    {"id":350, "nom": "Passerelle Saint Georges de Lyon", "x": "45.75731905255152", "y": "4.8257244091336", "alt": "167.616", "ville": "Lyon"},
+    {"id":351, "nom": "Quai Tilsitt Lyon", "x": "45.7558655857133", "y": "4.826356516397197", "alt": "inconnue", "ville": "Lyon"},
+    {"id":352, "nom": "Rue Jarente Lyon", "x": "45.754684720272316", "y": "4.8268091662393235", "alt": "inconnue", "ville": "Lyon"},
 ]
