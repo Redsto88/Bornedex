@@ -317,17 +317,8 @@ var bornes = [
     {"id":313, "nom": "Rue de la banque Chalon-sur-Saône", "x": "46.78381001224167", "y": "4.852305196268369", "alt": "179", "ville": "Chalon-sur-Saône" },
     {"id":314, "nom": "Rue des 3 Maures Chalon-sur-Saône", "x": "46.78440396834847", "y": "4.854519486843489", "alt": "180", "ville": "Chalon-sur-Saône" },
     {"id":315, "nom": "Rue Général Leclerc Chalon-sur-Saône", "x": "46.78259942615077", "y": "4.853690933755315", "alt": "177", "ville": "Chalon-sur-Saône" },
-
-    // 316
-    // 46° 46' 51'' N 4° 51' 13'' E
-    // Mairie de Châlon sur Saône
-    // 178 m
-
-    // 317
-    // 46° 46' 51'' N 4° 51' 13'' E
-    // Mairie de Châlon sur Saône
-    // 177 m
-
+    {"id":316, "nom": "Église Saint-Pierre de Chalon-sur-Saône", "x": "46.780634946903234", "y": "4.852837889265615", "alt": "178", "ville": "Chalon-sur-Saône"},
+    {"id":317, "nom": "Mairie de Chalon-sur-Saône", "x": "46.780866456153035", "y": "4.853713976291523", "alt": "177", "ville": "Chalon-sur-Saône"},
     {"id":318, "nom": "Quai Gambetta Chalon-sur-Saône", "x": "46.779722", "y": "4.855278", "alt": "176", "ville": "Chalon-sur-Saône" },
     {"id":319, "nom": "Quai de la Monnaie Chalon-sur-Saône", "x": "46.78014109032269", "y": "4.859348336872852", "alt": "182", "ville": "Chalon-sur-Saône" },
     {"id":320, "nom": "Quai des messageries Chalon-sur-Saône", "x": "46.780823", "y": "4.858136", "alt": "182", "ville": "Chalon-sur-Saône" },
