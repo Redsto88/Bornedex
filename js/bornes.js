@@ -356,4 +356,5 @@ var bornes = [
     {"id":352, "nom": "Rue Jarente Lyon", "x": "45.754684720272316", "y": "4.8268091662393235", "alt": "inconnue", "ville": "Lyon"},
     {"id":353, "nom": "Place du Champ-de-Mars Moret-Loing-et-Orvanne", "x": "48.37434401778631", "y": "2.81733971355382", "alt": "49", "ville": "Moret-Loing-et-Orvanne"},
     {"id":354, "nom": "Porte de Bourgogne Moret-Loing-et-Orvanne", "x": "48.372677371278066", "y": "2.818776555086414", "alt": "50.72", "ville": "Moret-Loing-et-Orvanne"},
+    {"id":355, "nom": "Les escaliers de la rue Girardon Paris", "x": "48.88863940889663", "y": "2.3380697514556656", "alt": "inconnue", "ville": "Paris"},
 ]
