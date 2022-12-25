@@ -357,4 +357,7 @@ var bornes = [
     {"id":353, "nom": "Place du Champ-de-Mars Moret-Loing-et-Orvanne", "x": "48.37434401778631", "y": "2.81733971355382", "alt": "49", "ville": "Moret-Loing-et-Orvanne"},
     {"id":354, "nom": "Porte de Bourgogne Moret-Loing-et-Orvanne", "x": "48.372677371278066", "y": "2.818776555086414", "alt": "50.72", "ville": "Moret-Loing-et-Orvanne"},
     {"id":355, "nom": "Les escaliers de la rue Girardon Paris", "x": "48.88863940889663", "y": "2.3380697514556656", "alt": "inconnue", "ville": "Paris"},
+    {"id":356, "nom": "Pont ferroviaire passant la Seine à Dammarie-les-Lys", "x": "48.53168476635568", "y": "2.6403801032268235", "alt": "40.84", "ville": "Dammarie-les-Lys"},
+    {"id":357, "nom": "Église Saint-Étienne Livry-sur-Seine", "x": "48.51087155213857", "y": "2.684931399930626", "alt": "74.00", "ville": "Livry-sur-Seine"},
+    {"id":358, "nom": "Porte de Samois Moret-Loing-et-Orvanne", "x": "48.37356748849877", "y": "2.8151650737785383", "alt": "54.87", "ville": "Moret-Loing-et-Orvanne"},
 ]
