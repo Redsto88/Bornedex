@@ -360,4 +360,6 @@ var bornes = [
     {"id":356, "nom": "Pont ferroviaire passant la Seine à Dammarie-les-Lys", "x": "48.53168476635568", "y": "2.6403801032268235", "alt": "40.84", "ville": "Dammarie-les-Lys"},
     {"id":357, "nom": "Église Saint-Étienne Livry-sur-Seine", "x": "48.51087155213857", "y": "2.684931399930626", "alt": "74.00", "ville": "Livry-sur-Seine"},
     {"id":358, "nom": "Porte de Samois Moret-Loing-et-Orvanne", "x": "48.37356748849877", "y": "2.8151650737785383", "alt": "54.87", "ville": "Moret-Loing-et-Orvanne"},
+    {"id":359, "nom": "Église Saint-Rémy de Ferrières-en-Brie", "x": "48.82126880360432", "y": "2.7044936916378144", "alt": "109", "ville": "Ferrières-en-Brie"},
+    {"id":360, "nom": "Mairie de Ferrières-en-Brie", "x": "48.82131254819413", "y": "2.7047316104882455", "alt": "103.925", "ville": "Ferrières-en-Brie"},
 ]
