@@ -362,5 +362,5 @@ var bornes = [
     {"id":358, "nom": "Porte de Samois Moret-Loing-et-Orvanne", "x": "48.37356748849877", "y": "2.8151650737785383", "alt": "54.87", "ville": "Moret-Loing-et-Orvanne"},
     {"id":359, "nom": "Église Saint-Rémy de Ferrières-en-Brie", "x": "48.82126880360432", "y": "2.7044936916378144", "alt": "109", "ville": "Ferrières-en-Brie"},
     {"id":360, "nom": "Mairie de Ferrières-en-Brie", "x": "48.82131254819413", "y": "2.7047316104882455", "alt": "103.925", "ville": "Ferrières-en-Brie"},
-    {"id":361, "nom": "Bonhomme de fer Écaussinnes", "x": "50.588484094475085", "y": "4.164824793825734", "alt": "144", "ville": "Écaussinnes"},
+    {"id":361, "nom": "Bonhomme de fer Braine-le-Comte", "x": "50.588484094475085", "y": "4.164824793825734", "alt": "144", "ville": "Braine-le-Comte", "wiki": "https://www.ngi.be/website/le-bonhomme-de-fer-en/"},
 ]
