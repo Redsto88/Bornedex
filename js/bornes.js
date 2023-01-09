@@ -344,7 +344,7 @@ var bornes = [
     { "id": 340, "nom": "3 Rue des Farges Lyon", "x": "45.75755536132851", "y": "4.8218770932160036", "alt": "inconnue", "ville": "Lyon" },
     { "id": 341, "nom": "31 Place Beauregard Lyon", "x": "45.75772321351942", "y": "4.82351129597774", "alt": "215.873", "ville": "Lyon" },
     { "id": 342, "nom": "Place de la République Fontainebleau", "x": "48.400231269696924", "y": "2.7145300659921947", "alt": "inconnue", "ville": "Fontainebleau" },
-    { "id": 343, "nom": "Place Gailleton Lyon", "x": "45.75338876719196", "y": "4.833659922117416", "alt": "178.484", "ville": "Lyon" },
+    { "id": 343, "nom": "Bibliothèque 1er Arrondissement Lyon", "x": "45.76897045263124", "y": "4.83434365163787", "alt": "178.484", "ville": "Lyon" },
     { "id": 344, "nom": "Chapelle Saint Thomas - Sainte Marie Lyon", "x": "45.7620190805107", "y": "4.822337202215089", "alt": "inconnue", "ville": "Lyon" },
     { "id": 345, "nom": "Cimetière Lamorlaye", "x": "49.158667400150506", "y": "2.437864705194684", "alt": "38", "ville": "Lamorlaye" },
     { "id": 346, "nom": "Groupe scolaire Jean-Jaures Lyon", "x": "45.764225469009205", "y": " 4.850020819714849", "alt": "inconnue", "ville": "Lyon" },
