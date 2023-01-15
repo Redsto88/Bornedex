@@ -364,4 +364,5 @@ var bornes = [
     { "id": 360, "nom": "Mairie de Ferrières-en-Brie", "x": "48.82131254819413", "y": "2.7047316104882455", "alt": "103.925", "ville": "Ferrières-en-Brie" },
     { "id": 361, "nom": "Bonhomme de fer Braine-le-Comte", "x": "50.588484094475085", "y": "4.164824793825734", "alt": "144", "ville": "Braine-le-Comte", "wiki": "https://www.ngi.be/website/le-bonhomme-de-fer-en/" },
     { "id": 362, "nom": "Beffroi de Dreux", "x": "48.73556508075874", "y": "1.3672322860246162", "alt": "89.76", "ville": "Dreux", "wiki": "https://fr.wikipedia.org/wiki/Beffroi_de_Dreux" },
+    { "id": 363, "nom": "Église de la Nativité Le Mée-sur-Seine", "x": "48.53222373850736", "y": "2.628634276867104", "alt": "inconnue", "ville": "Le Mée-sur-Seine" },
 ]
