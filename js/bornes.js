@@ -365,4 +365,6 @@ var bornes = [
     { "id": 361, "nom": "Bonhomme de fer Braine-le-Comte", "x": "50.588484094475085", "y": "4.164824793825734", "alt": "144", "ville": "Braine-le-Comte", "wiki": "https://www.ngi.be/website/le-bonhomme-de-fer-en/" },
     { "id": 362, "nom": "Beffroi de Dreux", "x": "48.73556508075874", "y": "1.3672322860246162", "alt": "89.76", "ville": "Dreux", "wiki": "https://fr.wikipedia.org/wiki/Beffroi_de_Dreux" },
     { "id": 363, "nom": "Église de la Nativité Le Mée-sur-Seine", "x": "48.53222373850736", "y": "2.628634276867104", "alt": "inconnue", "ville": "Le Mée-sur-Seine" },
+    { "id": 364, "nom": "Passage à niveau de Revigny-sur-Ornain", "x": "48.82064446951026", "y": "5.023263328026241", "alt": "154.902", "ville": "Revigny-sur-Ornain"},
+    { "id": 365, "nom": "Gare de Liverdun", "x": "48.749366095378484", "y": "6.0618018323134155", "alt": "204.634", "ville": "Liverdun" },
 ]
