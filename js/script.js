@@ -197,26 +197,29 @@ let url = window.location.href;
 let params = parseURLParams(url)
 
 
+var map = L.map('map');
+
 if ("borne" in params)
 {
     if (params.borne != "" && params.borne<bornes.length && params.borne>=0){
         borne = bornes[params.borne]
         posX=parseFloat(borne.x)+0.02
-        var map = L.map('map').setView([posX, borne.y], 14);
+        map.setView([posX, borne.y], 14);
     }
     else if("Lat" in params && "Lng" in params && "zoom" in params){
-        var map = L.map('map').setView([params.Lat[0], params.Lng[0]], params.zoom[0]);
+        map.setView([params.Lat[0], params.Lng[0]], params.zoom[0]);
     }
     else{
-        var map = L.map('map').setView([47.0016, 2.8], 6.4);
+        map.setView([47.0016, 2.8], 6.4);
     }
 }
 else if("Lat" in params && "Lng" in params && "zoom" in params){
-    var map = L.map('map').setView([params.Lat[0], params.Lng[0]], params.zoom[0]);
+    map.setView([params.Lat[0], params.Lng[0]], params.zoom[0]);
 }
 else{
-    var map = L.map('map').setView([47.0016, 2.8], 6.4);
+    map.setView([47.0016, 2.8], 6.4);
 }
+
 
 
 
