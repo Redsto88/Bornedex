@@ -99,7 +99,7 @@ var bornes = [
     { "id": 95, "nom": "Boulevard Jules Cesar Reims", "x": "49.26194763914611", "y": "4.029943321971145", "alt": "88.036", "ville": "Reims" },
     { "id": 96, "nom": "Mairie Marcillac la Croisille", "x": "45.27342087342", "y": "2.031788614138351", "alt": "565", "ville": "Marcillac la Croisille" },
     { "id": 97, "nom": "Eglise Luneville", "x": "48.59245409145298", "y": "6.491950354836047", "alt": "235", "ville": "Luneville" },
-    { "id": 98, "nom": "Porte Sainte-Catherine Nancy", "x": "48.69555116601601", "y": "6.189981785359711", "alt": "498.3", "ville": "Nancy" },
+    { "id": 98, "nom": "Porte Sainte-Catherine Nancy", "x": "48.69555116601601", "y": "6.189981785359711", "alt": "198.3", "ville": "Nancy" },
     { "id": 99, "nom": "Eglise Laneuveville-devant-Nancy", "x": "48.65708473430285", "y": "6.230961474473358", "alt": "212", "ville": "Laneuveville-devant-Nancy" },
     { "id": 100, "nom": "Église Notre-Dame-de-Bonsecours Nancy", "x": "48.676776130888015", "y": "6.199438046661186", "alt": "198.5", "ville": "Nancy" },
     { "id": 101, "nom": "Eglise de Saint-Léonard-de-Noblat", "x": "45.8372362150849", "y": "1.4897999657348913", "alt": "422.78", "ville": "Saint-Léonard-de-Noblat", "wiki": "https://fr.wikipedia.org/wiki/%C3%89glise_de_Saint-L%C3%A9onard-de-Noblat" },
