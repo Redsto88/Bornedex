@@ -369,4 +369,5 @@ var bornes = [
     { "id": 365, "nom": "Gare de Liverdun", "x": "48.749366095378484", "y": "6.0618018323134155", "alt": "204.634", "ville": "Liverdun" },
     { "id": 366, "nom": "Gare de Lérouville", "x": "48.79701315747249", "y": "5.538385368448431", "alt": "231.197", "ville": "Lérouville", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_L%C3%A9rouville" },
     { "id": 367, "nom": "Passage à niveau de Val-sur-Ornain", "x": "48.80239463854492", "y": "5.10996710518696", "alt": "172.569", "ville": "Val-sur-Ornain" },
+    { "id": 368, "nom": "Passage à niveau d'Ecrouve", "x": "48.675455285653754", "y": "5.820000729095579", "alt": "235.970", "ville": "Ecrouve" },
 ]
