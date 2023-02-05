@@ -370,4 +370,6 @@ var bornes = [
     { "id": 366, "nom": "Gare de Lérouville", "x": "48.79701315747249", "y": "5.538385368448431", "alt": "231.197", "ville": "Lérouville", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_L%C3%A9rouville" },
     { "id": 367, "nom": "Passage à niveau de Val-sur-Ornain", "x": "48.80239463854492", "y": "5.10996710518696", "alt": "172.569", "ville": "Val-sur-Ornain" },
     { "id": 368, "nom": "Passage à niveau d'Ecrouve", "x": "48.675455285653754", "y": "5.820000729095579", "alt": "235.970", "ville": "Ecrouve" },
+    { "id": 369, "nom": "Église Saint-Germain-de-Paris Bombon", "x": "48.574206440161475", "y": "2.858509298491653", "alt": "113.75", "ville": "Bombon" },
+    { "id": 370, "nom": "Église Saint-Méry", "x": "48.57809748892456", "y": "2.8258237411413325", "alt": "inconnue", "ville": "Saint-Méry" },
 ]
