@@ -372,4 +372,5 @@ var bornes = [
     { "id": 368, "nom": "Passage à niveau d'Ecrouve", "x": "48.675455285653754", "y": "5.820000729095579", "alt": "235.970", "ville": "Ecrouve" },
     { "id": 369, "nom": "Église Saint-Germain-de-Paris Bombon", "x": "48.574206440161475", "y": "2.858509298491653", "alt": "113.75", "ville": "Bombon" },
     { "id": 370, "nom": "Église Saint-Méry", "x": "48.57809748892456", "y": "2.8258237411413325", "alt": "inconnue", "ville": "Saint-Méry" },
+    { "id": 371, "nom": "Gare de Nançois-sur-Ornain", "x": "48.7180109", "y": "5.2910663", "alt": "236.966", "ville": "Nançois-sur-Ornain" },
 ]
