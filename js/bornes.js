@@ -373,4 +373,6 @@ var bornes = [
     { "id": 369, "nom": "Église Saint-Germain-de-Paris Bombon", "x": "48.574206440161475", "y": "2.858509298491653", "alt": "113.75", "ville": "Bombon" },
     { "id": 370, "nom": "Église Saint-Méry", "x": "48.57809748892456", "y": "2.8258237411413325", "alt": "inconnue", "ville": "Saint-Méry" },
     { "id": 371, "nom": "Gare de Nançois-sur-Ornain", "x": "48.7180109", "y": "5.2910663", "alt": "236.966", "ville": "Nançois-sur-Ornain" },
+    { "id": 372, "nom": "Église Saint-Amand Thomery", "x": "48.410654141188", "y": "2.786046871241755", "alt": "inconnue", "ville": "Thomery" },
+    { "id": 373, "nom": "BNP PARIBAS Thomery", "x": "48.40935826196742", "y": "2.7847738854314183", "alt": "55", "ville": "Thomery" },
 ]
