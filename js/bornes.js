@@ -412,6 +412,7 @@ var bornes = [
     { "id": 408, "nom": "Place Michel-de-L'Hospital Clermont-Ferrand", "x": "45.77646633144874", "y": "3.0898804216674236", "alt": "397.102", "ville": "Clermont-Ferrand" },
     { "id": 409, "nom": "Impasse Philomène Clermont-Ferrand", "x": "45.777469141893604", "y": "3.087744711094993", "alt": "401.940", "ville": "Clermont-Ferrand" },
     { "id": 410, "nom": "Rue Paul Leblanc Clermont-Ferrand", "x": "45.776979926275956", "y": "3.0856105806614735", "alt": "410.481", "ville": "Clermont-Ferrand" },
-
-
+    { "id": 411, "nom": "Mairie La Chapelle-Rablais", "x": "48.512135868923046", "y": "2.970934840469092", "alt": "124.31", "ville": "La Chapelle-Rablais"},
+    { "id": 412, "nom": "Cimetière La Chapelle-Rablais", "x": "48.51983286667997", "y": "2.9694965416847277", "alt": "Inconnue", "ville": "La Chapelle-Rablais" },
+    { "id": 413, "nom": "Rue Grande La Chapelle-Gauthier", "x": "48.549780103313694", "y": "2.8932171660869264", "alt": "112", "ville": "La Chapelle-Gauthier" },
 ]   
