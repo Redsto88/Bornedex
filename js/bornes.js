@@ -415,4 +415,5 @@ var bornes = [
     { "id": 411, "nom": "Mairie La Chapelle-Rablais", "x": "48.512135868923046", "y": "2.970934840469092", "alt": "124.31", "ville": "La Chapelle-Rablais"},
     { "id": 412, "nom": "Cimetière La Chapelle-Rablais", "x": "48.51983286667997", "y": "2.9694965416847277", "alt": "Inconnue", "ville": "La Chapelle-Rablais" },
     { "id": 413, "nom": "Rue Grande La Chapelle-Gauthier", "x": "48.549780103313694", "y": "2.8932171660869264", "alt": "112", "ville": "La Chapelle-Gauthier" },
+    { "id": 414, "nom": "Porte de la Grande Cloître de l'Hôtel Dieu Lyon", "x": "45.7593425693087", "y": "4.836101665639921", "alt": "inconnue", "ville": "Lyon" },
 ]   
