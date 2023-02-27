@@ -417,4 +417,6 @@ var bornes = [
     { "id": 413, "nom": "Rue Grande La Chapelle-Gauthier", "x": "48.549780103313694", "y": "2.8932171660869264", "alt": "112", "ville": "La Chapelle-Gauthier" },
     { "id": 414, "nom": "Porte de la Grande Cloître de l'Hôtel Dieu Lyon", "x": "45.7593425693087", "y": "4.836101665639921", "alt": "inconnue", "ville": "Lyon" },
     { "id": 415, "nom": "Bibliothèque de Brenthonne", "x": "46.27286275043704", "y": "6.392613235785029", "alt": "556.795", "ville": "Brenthonne" },
+    { "id": 416, "nom": "82 rue Vendôme Lyon", "x": "45.768604910837546", "y": "4.844968948754495", "alt": "169.980", "ville": "Lyon"},
+    { "id": 417, "nom": "Porte des Enfants du Rhône Lyon", "x": "45.777081872502585", "y": "4.845130926514281", "alt": "inconnue", "ville": "Lyon", "wiki": "https://fr.wikipedia.org/wiki/Monument_des_enfants_du_Rh%C3%B4ne" },
 ]   
