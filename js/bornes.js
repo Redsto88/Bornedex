@@ -419,4 +419,7 @@ var bornes = [
     { "id": 415, "nom": "Bibliothèque de Brenthonne", "x": "46.27286275043704", "y": "6.392613235785029", "alt": "556.795", "ville": "Brenthonne" },
     { "id": 416, "nom": "82 rue Vendôme Lyon", "x": "45.768604910837546", "y": "4.844968948754495", "alt": "169.980", "ville": "Lyon"},
     { "id": 417, "nom": "Porte des Enfants du Rhône Lyon", "x": "45.777081872502585", "y": "4.845130926514281", "alt": "inconnue", "ville": "Lyon", "wiki": "https://fr.wikipedia.org/wiki/Monument_des_enfants_du_Rh%C3%B4ne" },
+    { "id": 418, "nom": "2624 Route des Grandes Alpes Morzine", "x": "46.18876415124715", "y": "6.690957440617158", "alt": "inconnue", "ville": "Morzine", "wiki": "https://fr.wikipedia.org/wiki/Route_des_Grandes_Alpes"},
+    { "id": 419, "nom": "Église Saint-Jean-Baptiste Saint-Jean-d'Aulps", "x": "46.23472680524705", "y": "6.655868272562525", "alt": "803", "ville": "Saint-Jean-d'Aulps" },
+    { "id": 420, "nom": "1663 Route des Grandes Alpes Morzine", "x": "46.235331394479715", "y": "6.655320887282762", "alt": "inconnue", "ville": "Morzine" },
 ]   
