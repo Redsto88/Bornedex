@@ -422,4 +422,5 @@ var bornes = [
     { "id": 418, "nom": "2624 Route des Grandes Alpes Morzine", "x": "46.18876415124715", "y": "6.690957440617158", "alt": "inconnue", "ville": "Morzine", "wiki": "https://fr.wikipedia.org/wiki/Route_des_Grandes_Alpes"},
     { "id": 419, "nom": "Église Saint-Jean-Baptiste Saint-Jean-d'Aulps", "x": "46.23472680524705", "y": "6.655868272562525", "alt": "803", "ville": "Saint-Jean-d'Aulps" },
     { "id": 420, "nom": "1663 Route des Grandes Alpes Morzine", "x": "46.235331394479715", "y": "6.655320887282762", "alt": "inconnue", "ville": "Morzine" },
+    { "id": 421, "nom": "Gare de Commercy", "x": "48.7659339", "y": "5.5886165", "alt": "233.382", "ville": "Commercy", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Commercy" },
 ]   
