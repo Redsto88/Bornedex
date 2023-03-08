@@ -423,4 +423,7 @@ var bornes = [
     { "id": 419, "nom": "Église Saint-Jean-Baptiste Saint-Jean-d'Aulps", "x": "46.23472680524705", "y": "6.655868272562525", "alt": "803", "ville": "Saint-Jean-d'Aulps" },
     { "id": 420, "nom": "1663 Route des Grandes Alpes Morzine", "x": "46.235331394479715", "y": "6.655320887282762", "alt": "inconnue", "ville": "Morzine" },
     { "id": 421, "nom": "Gare de Commercy", "x": "48.7659339", "y": "5.5886165", "alt": "233.382", "ville": "Commercy", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Commercy" },
+    { "id": 422, "nom": "Place Mazas Paris", "x": "48.845629076673255", "y": "2.3668772391414152", "alt": "inconnue", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Place_Mazas" },
+    { "id": 423, "nom": "Eglise de La Nativité de Marie Les Gets", "x": "46.160319342969345", "y": "6.67254039631262", "alt": "1167", "ville": "Les Gets", "wiki": "https://fr.wikipedia.org/wiki/%C3%89glise_de_la_Nativit%C3%A9-de-Marie_des_Gets" },
+    { "id": 424, "nom": "Hôpital des Gardiens de la Paix AP-HP Paris", "x": "48.83882182153041", "y": "2.358823295149319", "alt": "inconnue", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Assistance_publique_-_H%C3%B4pitaux_de_Paris" },
 ]   
