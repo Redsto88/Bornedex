@@ -426,4 +426,5 @@ var bornes = [
     { "id": 422, "nom": "Place Mazas Paris", "x": "48.845629076673255", "y": "2.3668772391414152", "alt": "inconnue", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Place_Mazas" },
     { "id": 423, "nom": "Eglise de La Nativité de Marie Les Gets", "x": "46.160319342969345", "y": "6.67254039631262", "alt": "1167", "ville": "Les Gets", "wiki": "https://fr.wikipedia.org/wiki/%C3%89glise_de_la_Nativit%C3%A9-de-Marie_des_Gets" },
     { "id": 424, "nom": "Hôpital des Gardiens de la Paix AP-HP Paris", "x": "48.83882182153041", "y": "2.358823295149319", "alt": "inconnue", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Assistance_publique_-_H%C3%B4pitaux_de_Paris" },
+    { "id": 425, "nom": "Avenue de la Libération Le Mée-sur-Seine", "x": "48.54752760045118", "y": "2.639680969166837", "alt": "inconnue", "ville": "Le Mée-sur-Seine" },
 ]   
