@@ -428,4 +428,5 @@ var bornes = [
     { "id": 424, "nom": "Hôpital des Gardiens de la Paix AP-HP Paris", "x": "48.83882182153041", "y": "2.358823295149319", "alt": "inconnue", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Assistance_publique_-_H%C3%B4pitaux_de_Paris" },
     { "id": 425, "nom": "Avenue de la Libération Le Mée-sur-Seine", "x": "48.54752760045118", "y": "2.639680969166837", "alt": "inconnue", "ville": "Le Mée-sur-Seine" },
     { "id": 426, "nom": "Plateau des Poètes Béziers", "x": "43.3380900001356", "y": "3.2213427443868246", "alt": "51.86", "ville": "Béziers" },
+    { "id": 427, "nom": "Église Saint-Brice de Chonville", "x": "48.750812314071155", "y": "5.499574965217882", "alt": "268", "ville": "Chonville" },
 ]   
