@@ -429,4 +429,5 @@ var bornes = [
     { "id": 425, "nom": "Avenue de la Libération Le Mée-sur-Seine", "x": "48.54752760045118", "y": "2.639680969166837", "alt": "inconnue", "ville": "Le Mée-sur-Seine" },
     { "id": 426, "nom": "Plateau des Poètes Béziers", "x": "43.3380900001356", "y": "3.2213427443868246", "alt": "51.86", "ville": "Béziers" },
     { "id": 427, "nom": "Église Saint-Brice de Chonville", "x": "48.750812314071155", "y": "5.499574965217882", "alt": "268", "ville": "Chonville" },
+    { "id": 427, "nom": "Gare de Revigny", "x": "48.824073177747835", "y": "4.985389705171306", "alt": "147.146", "ville": "Revigny-sur-Ornain", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Revigny-sur-Ornain" },
 ]   
