@@ -432,4 +432,5 @@ var bornes = [
     { "id": 428, "nom": "Gare de Revigny", "x": "48.824073177747835", "y": "4.985389705171306", "alt": "147.146", "ville": "Revigny-sur-Ornain", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Revigny-sur-Ornain" },
     { "id": 429, "nom": "Montée du Chemin-Neuf Lyon", "x": "45.75846167294369", "y": "4.82312701548849", "alt": "inconnue", "ville": "Lyon", "wiki": "https://fr.wikipedia.org/wiki/Mont%C3%A9e_du_Chemin-Neuf" },
     { "id": 430, "nom": "Cours Aristide Briand Caluire-et-Cuire", "x": "45.78209191626052", "y": "4.843155749014299", "alt": "172.344", "ville": "Caluire-et-Cuire" },
+    { "id": 431, "nom": "Avenue de la Faculté d'Agronomie Gembloux", "x": "50.564026893101335", "y": "4.6966804168371326", "alt": "inconnue", "ville": "Gembloux" },
 ]   
