@@ -433,4 +433,6 @@ var bornes = [
     { "id": 429, "nom": "Montée du Chemin-Neuf Lyon", "x": "45.75846167294369", "y": "4.82312701548849", "alt": "inconnue", "ville": "Lyon", "wiki": "https://fr.wikipedia.org/wiki/Mont%C3%A9e_du_Chemin-Neuf" },
     { "id": 430, "nom": "Cours Aristide Briand Caluire-et-Cuire", "x": "45.78209191626052", "y": "4.843155749014299", "alt": "172.344", "ville": "Caluire-et-Cuire" },
     { "id": 431, "nom": "Avenue de la Faculté d'Agronomie Gembloux", "x": "50.564026893101335", "y": "4.6966804168371326", "alt": "inconnue", "ville": "Gembloux" },
+    { "id": 432, "nom": "Cours Aristide Briand Caluire-et-Cuire 2", "x": "45.78214427518835", "y": "4.843211355846236", "alt": "172.344", "ville": "Caluire-et-Cuire" },
+    { "id": 433, "nom": "Mairie de Chambéry", "x": "45.56627882219716", "y": "5.9206505335417186", "alt": "271.453", "ville": "Chambéry" },
 ]   
