@@ -435,4 +435,7 @@ var bornes = [
     { "id": 431, "nom": "Avenue de la Faculté d'Agronomie Gembloux", "x": "50.564026893101335", "y": "4.6966804168371326", "alt": "inconnue", "ville": "Gembloux" },
     { "id": 432, "nom": "Cours Aristide Briand Caluire-et-Cuire 2", "x": "45.78214427518835", "y": "4.843211355846236", "alt": "172.344", "ville": "Caluire-et-Cuire" },
     { "id": 433, "nom": "Mairie de Chambéry", "x": "45.56627882219716", "y": "5.9206505335417186", "alt": "271.453", "ville": "Chambéry" },
+    { "id": 434, "nom": "34 Avenue de la Porte de Choisy Paris", "x": "48.81985399472836", "y": "2.365199067237181", "alt": "inconnue", "ville": "Paris"},
+    { "id": 435, "nom": "71 Avenue de la Porte d'Ivry Paris", "x": "48.82121194264173", "y": "2.3694794303471487", "alt": "inconnue", "ville": "Paris"},
+    { "id": 436, "nom": "9 Rue Lachelier Paris", "x": "48.82003545944855", "y": "2.365827774916459", "alt": "inconnue", "ville": "Paris" },
 ]   
