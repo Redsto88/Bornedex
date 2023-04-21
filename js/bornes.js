@@ -438,4 +438,6 @@ var bornes = [
     { "id": 434, "nom": "34 Avenue de la Porte de Choisy Paris", "x": "48.81985399472836", "y": "2.365199067237181", "alt": "inconnue", "ville": "Paris"},
     { "id": 435, "nom": "71 Avenue de la Porte d'Ivry Paris", "x": "48.82121194264173", "y": "2.3694794303471487", "alt": "inconnue", "ville": "Paris"},
     { "id": 436, "nom": "9 Rue Lachelier Paris", "x": "48.82003545944855", "y": "2.365827774916459", "alt": "inconnue", "ville": "Paris" },
+    { "id": 437, "nom": "Passage à niveau d'Ecrouve", "x": "48.676322076993166", "y": "5.836846141866828", "alt": "183.493", "ville": "Ecrouve" },
+    { "id": 438, "nom": "Carré de signalisation ferroviaire Contrisson", "x": "48.8117701", "y": "4.9567860", "alt": "146.138", "ville": "Contrisson" },
 ]   
