@@ -450,4 +450,5 @@ var bornes = [
     { "id": 446, "nom": "Entrée du du Jardin des Plantes Paris", "x": "48.84375086528014", "y": "2.3551002410153834", "alt": "inconnue", "ville": "Paris" },
     { "id": 447, "nom": "11 Rue Buffon Paris", "x": "48.84280304629025", "y": "2.362398887182141", "alt": "inconnue", "ville": "Paris" },
     { "id": 448, "nom": "Boulevard de L'hôpital Paris", "x": "48.83990534827534", "y": "2.3619729974026633", "alt": "inconnue", "ville": "Paris" },
+    { "id": 449, "nom": "Ecole de Falck", "x": "49.22483243358401", "y": "6.636236030998355", "alt": "228", "ville": "Flack" },
 ]   
