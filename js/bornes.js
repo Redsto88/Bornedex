@@ -452,4 +452,14 @@ var bornes = [
     { "id": 448, "nom": "Boulevard de L'hôpital Paris", "x": "48.83990534827534", "y": "2.3619729974026633", "alt": "inconnue", "ville": "Paris" },
     { "id": 449, "nom": "Ecole de Falck", "x": "49.22483243358401", "y": "6.636236030998355", "alt": "228", "ville": "Flack" },
     { "id": 450, "nom": "Marché couvert de Nancy", "x": "48.68971429647626", "y": "6.183053562241625", "alt": "205.50", "ville": "Nancy", "wiki": "https://fr.wikipedia.org/wiki/March%C3%A9_couvert_de_Nancy" },
+    { "id": 451, "nom": "Les Halles Paris", "x": "48.862405239679404", "y": "2.348599716752465", "alt": "inconnue", "ville": "Paris" },
+    { "id": 452, "nom": "Eglise Saint Eustache Paris", "x": "48.86320816081803", "y": "2.3458839006677397", "alt": "inconnue", "ville": "Paris" },
+    { "id": 453, "nom": "La péniche Paris", "x": "48.85080051751128", "y": "2.3532297940963205", "alt": "inconnue", "ville": "Paris" },
+    { "id": 454, "nom": "Pont de l'archevêché sud-est Paris", "x": "48.85137117958009", "y": "2.351547636195679", "alt": "inconnue", "ville": "Paris" },
+    { "id": 455, "nom": "Pont de l'archevêché sud-ouest Paris", "x": "48.85139677109644", "y": "2.351388044772255", "alt": "70.681", "ville": "Paris" },
+    { "id": 456, "nom": "Pont Royal nord Paris", "x": "48.860586906221926", "y": "2.3305686954248146", "alt": "inconnue", "ville": "Paris" },
+    { "id": 457, "nom": "Sacré Coeur Paris", "x": "48.88697410604578", "y": "2.3424169402837145", "alt": "inconnue", "ville": "Paris" },
+    { "id": 458, "nom": "Croisement rue Vaudrezanne, rue du Moulin des Prés Paris", "x": "48.828059671492035", "y": "2.352923152003629", "alt": "inconnue", "ville": "Paris" },
+    { "id": 459, "nom": "Rue Stanislas Place Stanislas Nancy", "x": "48.6933355251679", "y": "6.1825230038490515", "alt": "201.20", "ville": "Nancy" },
+    
 ]   
