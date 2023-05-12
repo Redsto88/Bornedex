@@ -463,4 +463,10 @@ var bornes = [
     { "id": 459, "nom": "Rue Stanislas Place Stanislas Nancy", "x": "48.6933355251679", "y": "6.1825230038490515", "alt": "201.20", "ville": "Nancy" },
     { "id": 460, "nom": "252 bis Rue du Faubourg Saint-Antoine Paris", "x": "48.84901042064237", "y": "2.39088809986928", "alt": "inconnue", "ville": "Paris" },
     { "id": 461, "nom": "1 Rue des Boulets Paris", "x": "48.84919393890419", "y": "2.3919225034194005", "alt": "inconnue", "ville": "Paris" },
+    { "id": 462, "nom": "94 Rue de Corbineau Paris", "x": "48.83867420142927", "y": "2.3814857384049906", "alt": "inconnue", "ville": "Paris" },
+    { "id": 463, "nom": "55 Rue Sainte-Anne Paris", "x": "48.86771342717138", "y": "2.3362651621956494", "alt": "inconnue", "ville": "Paris" },
+    { "id": 464, "nom": "39 Rue du Mont-Cenis Paris", "x": "48.888764819469955", "y": "2.342123648578288", "alt": "inconnue", "ville": "Paris" },
+    { "id": 465, "nom": "43 Rue du Mont Cenis Paris", "x": "48.88945367493732", "y": "2.342782266934765", "alt": "inconnue", "ville": "Paris" },
+    { "id": 466, "nom": "105 Rue Caulaincourt Paris", "x": "48.889724651154474", "y": "2.3391394583599574", "alt": "inconnue", "ville": "Paris" },
+    { "id": 467, "nom": "4 Avenue de Choisy Paris", "x": "48.820511102086435", "y": "2.364597416571394", "alt": "inconnue", "ville": "Paris" },
 ]   
