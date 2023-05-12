@@ -461,5 +461,6 @@ var bornes = [
     { "id": 457, "nom": "Sacré Coeur Paris", "x": "48.88697410604578", "y": "2.3424169402837145", "alt": "inconnue", "ville": "Paris" },
     { "id": 458, "nom": "Croisement rue Vaudrezanne, rue du Moulin des Prés Paris", "x": "48.828059671492035", "y": "2.352923152003629", "alt": "inconnue", "ville": "Paris" },
     { "id": 459, "nom": "Rue Stanislas Place Stanislas Nancy", "x": "48.6933355251679", "y": "6.1825230038490515", "alt": "201.20", "ville": "Nancy" },
-    
+    { "id": 460, "nom": "252 bis Rue du Faubourg Saint-Antoine Paris", "x": "48.84901042064237", "y": "2.39088809986928", "alt": "inconnue", "ville": "Paris" },
+    { "id": 461, "nom": "1 Rue des Boulets Paris", "x": "48.84919393890419", "y": "2.3919225034194005", "alt": "inconnue", "ville": "Paris" },
 ]   
