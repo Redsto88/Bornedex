@@ -469,4 +469,5 @@ var bornes = [
     { "id": 465, "nom": "43 Rue du Mont Cenis Paris", "x": "48.88945367493732", "y": "2.342782266934765", "alt": "inconnue", "ville": "Paris" },
     { "id": 466, "nom": "105 Rue Caulaincourt Paris", "x": "48.889724651154474", "y": "2.3391394583599574", "alt": "inconnue", "ville": "Paris" },
     { "id": 467, "nom": "4 Avenue de Choisy Paris", "x": "48.820511102086435", "y": "2.364597416571394", "alt": "inconnue", "ville": "Paris" },
+    { "id": 468, "nom": "10 Route de la Reine Boulogne-Billancourt", "x": "48.83888671567748", "y": "2.250789326417209", "alt": "39.678", "ville": "Boulogne-Billancourt" },
 ]   
