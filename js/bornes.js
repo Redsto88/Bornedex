@@ -470,5 +470,8 @@ var bornes = [
     { "id": 466, "nom": "105 Rue Caulaincourt Paris", "x": "48.889724651154474", "y": "2.3391394583599574", "alt": "inconnue", "ville": "Paris" },
     { "id": 467, "nom": "4 Avenue de Choisy Paris", "x": "48.820511102086435", "y": "2.364597416571394", "alt": "inconnue", "ville": "Paris" },
     { "id": 468, "nom": "10 Route de la Reine Boulogne-Billancourt", "x": "48.83888671567748", "y": "2.250789326417209", "alt": "39.678", "ville": "Boulogne-Billancourt" },
-    { "id": 469, "nom": "Route de Boissy D'Huison-Longueville", "x": "48.46233618028943", "y": "2.3201593662789803", "alt": "inconnue", "ville": "D'Huison-Longueville" }
+    { "id": 469, "nom": "Route de Boissy D'Huison-Longueville", "x": "48.46233618028943", "y": "2.3201593662789803", "alt": "inconnue", "ville": "D'Huison-Longueville" },
+    { "id": 470, "nom": "Centre sportif Léo Lagrange Paris", "x": "48.83203742785472", "y": "2.398925678436196", "alt": "inconnue", "ville": "Paris" },
+    { "id": 471, "nom": "Centre sportif Léo Lagrange Paris 2", "x": "48.83275001681726", "y": "2.4008797023542248", "alt": "inconnue", "ville": "Paris" },
+    { "id": 472, "nom": "Porte de Bercy", "x": "48.82850844607588", "y": "2.3917827147931265", "alt": "inconnue", "ville": "Paris" },    
 ]   
