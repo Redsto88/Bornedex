@@ -473,5 +473,8 @@ var bornes = [
     { "id": 469, "nom": "Route de Boissy D'Huison-Longueville", "x": "48.46233618028943", "y": "2.3201593662789803", "alt": "inconnue", "ville": "D'Huison-Longueville" },
     { "id": 470, "nom": "Centre sportif Léo Lagrange Paris", "x": "48.83203742785472", "y": "2.398925678436196", "alt": "inconnue", "ville": "Paris" },
     { "id": 471, "nom": "Centre sportif Léo Lagrange Paris 2", "x": "48.83275001681726", "y": "2.4008797023542248", "alt": "inconnue", "ville": "Paris" },
-    { "id": 472, "nom": "Porte de Bercy", "x": "48.82850844607588", "y": "2.3917827147931265", "alt": "inconnue", "ville": "Paris" },    
+    { "id": 472, "nom": "Porte de Bercy", "x": "48.82850844607588", "y": "2.3917827147931265", "alt": "inconnue", "ville": "Paris" },
+    { "id": 473, "nom": "Eglise Saint-Méry", "x": "48.57809601725707", "y": "2.825825075792722", "alt": "inconnue", "ville": "Saint-Méry" },
+    { "id": 474, "nom": "2 Rue du Gâtinais Saint-Méry", "x": "48.57844477545899", "y": "2.821858436674745", "alt": "inconnue", "ville": "Saint-Méry" },
+    { "id": 475, "nom": "Ecole élémentaire de Saint-Méry", "x": "48.57864018570165", "y": "2.8282286059724826", "alt": "inconnue", "ville": "Saint-Méry" },
 ]   
