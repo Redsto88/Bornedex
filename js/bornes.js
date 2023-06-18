@@ -477,4 +477,7 @@ var bornes = [
     { "id": 473, "nom": "Eglise Saint-Méry", "x": "48.57809601725707", "y": "2.825825075792722", "alt": "inconnue", "ville": "Saint-Méry" },
     { "id": 474, "nom": "2 Rue du Gâtinais Saint-Méry", "x": "48.57844477545899", "y": "2.821858436674745", "alt": "inconnue", "ville": "Saint-Méry" },
     { "id": 475, "nom": "Ecole élémentaire de Saint-Méry", "x": "48.57864018570165", "y": "2.8282286059724826", "alt": "inconnue", "ville": "Saint-Méry" },
+    { "id": 476, "nom": "Mairie Limoges-Fources", "x": "48.62692424040089", "y": "2.664036778730828", "alt": " 93", "ville": "Limoges-Fources" },
+    { "id": 477, "nom": "Rue des écoles Limoges-Fourches", "x": "48.62670445562998", "y": "2.6653453665199596", "alt": "inconnue", "ville": "Limoges-Fources"},
+    { "id": 478, "nom": "Rue des Hauldres Limoges-Fourches", "x": "48.62554310706046", "y": "2.6646574615177787", "alt": "inconnue", "ville": "Limoges-Fources"},
 ]   
