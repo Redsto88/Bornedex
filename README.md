@@ -15,3 +15,13 @@ Et donc nous avons décidé de les prendre en photo et de les mettre sur un site
 Vous pouvez nous aider en prenant en photo une borne et en nous l'envoyant sur notre [serveur communautaire Discord](https://discord.gg/wpNXd4tDnk) !
 
 Si vous êtes en expert github, vous pouvez aussi faire un pull request sur ce dépôt 😉
+
+## Developemment
+
+Fichier admin/password.php
+```php
+<?php
+  $username = "admin";
+  $password = "admin";
+?>
+```

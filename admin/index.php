@@ -25,10 +25,13 @@
 
   <?php
   if (isset($_POST['username']) && isset($_POST['password'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    $inputUsername = $_POST['username'];
+    $inputPassword = $_POST['password'];
 
-    if ($username == "a" && $password == "a") {
+    include("password.php");
+
+
+    if ($username == $inputUsername && $password == $inputPassword) {
       session_start();
       $_SESSION['isLogin'] = true;
       header("Location: admin.php");
