@@ -42,3 +42,37 @@ a{
   border-radius: 5px;
   background-color: buttonface;
 }
+
+
+.table{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.table > div{
+  flex: 1;
+  max-width: 512px;
+}
+
+#map{
+  height: 463px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.leaflet-control-container{
+  display: none;
+}
+
+/* on mobile */
+@media screen and (max-width: 600px) {
+  .table{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  #map{
+    height: 300px;
+    width: 100%;
+  }
+}

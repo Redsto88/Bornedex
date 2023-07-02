@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Edition - Bornedex</title>
-  <link rel="stylesheet" href="../css/admin.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../lib/leaflet/leaflet.css"/>
+  <link rel="stylesheet" href="../css/admin.css">
 </head>
 
 <body>
@@ -68,32 +69,41 @@
     $wiki = "";
   }
 
-
+  echo "<p id=\"coo\" style=\"display:none\">".$coordonees."</p>";
 
 
   //affiche le formulaire
 
   ?>
+  <div class="table">
 
-  <form action="subedit.php" method="post">
-    <input type="hidden" name="id" id="id" value="<?php echo $id ?>">
-    <label for="nom">Nom:</label>
-    <input type="text" name="nom" id="nom" value="<?php echo $nom ?>">
-    <br>
-    <label for="coordonees">Coordonees:</label>
-    <input type="text" name="coordonees" id="coordonees" value="<?php echo $coordonees ?>">
-    <br>
-    <label for="alt">Altitude:</label>
-    <input type="text" name="altitude" id="altitude" value="<?php echo $altitude ?>">
-    <br>
-    <label for="ville">Ville:</label>
-    <input type="text" name="ville" id="ville" value="<?php echo $ville ?>">
-    <br>
-    <label for="wiki">Wikipédia:</label>
-    <input type="text" name="wiki" id="wiki" value="<?php echo $wiki ?>">
-    <br>
-    <input type="submit" value="Modifier">
-  </form>
+    <form action="subedit.php" method="post">
+      <input type="hidden" name="id" id="id" value="<?php echo $id ?>">
+      <label for="nom">Nom:</label>
+      <input type="text" name="nom" id="nom" value="<?php echo $nom ?>">
+      <br>
+      <label for="coordonees">Coordonees:</label>
+      <input type="text" name="coordonees" id="coordonees" value="<?php echo $coordonees ?>">
+      <br>
+      <label for="alt">Altitude:</label>
+      <input type="text" name="altitude" id="altitude" value="<?php echo $altitude ?>">
+      <br>
+      <label for="ville">Ville:</label>
+      <input type="text" name="ville" id="ville" value="<?php echo $ville ?>">
+      <br>
+      <label for="wiki">Wikipédia:</label>
+      <input type="text" name="wiki" id="wiki" value="<?php echo $wiki ?>">
+      <br>
+      <input type="submit" value="Modifier">
+    </form>
+
+    <div class="div">
+      <div id="map"></div>
+      <a href="javascript:teleportToMarker()">Retourner à la borne</a>
+      <a href="javascript:teleportToOrigin()">Remettre la borne</a>
+    </div>
+
+  </div>
 
   <form action="delete.php" method="post">
     <input type="hidden" name="id" id="id" value="<?php echo $id ?>">
@@ -102,6 +112,11 @@
 
   <a href="admin.php">Retour</a>
 
+  <script src="../lib/leaflet/leaflet.js"></script>
+  <script src="../js/admin-map.js"></script>
+  <script>
+    teleportToOrigin();
+  </script>
 </body>
 
 </html>
