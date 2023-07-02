@@ -99,7 +99,20 @@
   // Récupère le dernier id
   preg_match_all('/"id": ([0-9]+),/', $js, $matches);
   $lastId = max($matches[1]);
-  $idToUse = $lastId + 1;
+  $matches = $matches[1];
+  // recherche l'id le plus petit qui n'est pas utilisé
+  $idToUse = 0;
+  $found = false;
+  for ($i = 0; $i < $lastId; $i++) {
+    if($i != $matches[$i]){
+      $idToUse = $i;
+      $found = true;
+      break;
+    }
+  }
+  if(!$found){
+    $idToUse = $lastId + 1;
+  }
 
   // Ajoute une ligne à l'avant dernière ligne du fichier
   if ($wiki != "") {
@@ -122,7 +135,7 @@
 
   ?>
 
-  <p>Upload réussi</p>
+  <p>Upload réussi avec l'id <?php echo $idToUse ?></p>
   <a href="admin.php">Retour</a>
 
 </body>
