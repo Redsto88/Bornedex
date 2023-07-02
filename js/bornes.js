@@ -480,4 +480,4 @@ var bornes = [
     { "id": 476, "nom": "Mairie Limoges-Fources", "x": "48.62692424040089", "y": "2.664036778730828", "alt": " 93", "ville": "Limoges-Fources" },
     { "id": 477, "nom": "Rue des écoles Limoges-Fourches", "x": "48.62670445562998", "y": "2.6653453665199596", "alt": "inconnue", "ville": "Limoges-Fources"},
     { "id": 478, "nom": "Rue des Hauldres Limoges-Fourches", "x": "48.62554310706046", "y": "2.6646574615177787", "alt": "inconnue", "ville": "Limoges-Fources"},
-]   
+]
