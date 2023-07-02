@@ -41,6 +41,8 @@
   }
   ?>
 
+  <a href="..">Retour au site</a>
+
 </body>
 
 </html>
