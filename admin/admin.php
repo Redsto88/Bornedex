@@ -17,6 +17,8 @@
 
   <h1>Admin</h1>
 
+  <h2>Ajouter une borne</h2>
+
   <form action="upload.php" method="post" enctype="multipart/form-data">
     <label for="nom">Nom:</label>
     <input type="text" name="nom" id="nom">
@@ -38,6 +40,13 @@
     <input type="submit" value="Upload">
   </form>
 
+  <h2>Modifier une borne</h2>
+
+  <form action="edit.php" method="get">
+    <label for="id">id:</label>
+    <input type="number" name="id" id="id">
+    <input type="submit" value="Modifier">
+  </form>
 
   <a href="logout.php">Logout</a>
 

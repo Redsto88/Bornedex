@@ -14,24 +14,28 @@ if(!isset($_SESSION['isLogin']) || $_SESSION['isLogin'] == false) {
 // Vérifie le nom
 if (!isset($_POST['nom'])) {
   echo "Erreur: le nom n'est pas rempli";
+  echo "<a href='admin.php'>Retour</a>";
   exit;
 }
 
 // Vérifie les coordonnées
 if (!isset($_POST['coordonees'])) {
   echo "Erreur: les coordonnées ne sont pas remplies";
+  echo "<a href='admin.php'>Retour</a>";
   exit;
 }
 
 // Vérifie la ville
 if (!isset($_POST['ville'])) {
   echo "Erreur: la ville n'est pas remplie";
+  echo "<a href='admin.php'>Retour</a>";
   exit;
 }
 
 // Vérifie le fichier
 if (!isset($_FILES['file'])) {
   echo "Erreur: le fichier n'est pas rempli";
+  echo "<a href='admin.php'>Retour</a>";
   exit;
 }
 
@@ -41,6 +45,7 @@ if (!isset($_FILES['file'])) {
 $check = getimagesize($_FILES["file"]["tmp_name"]);
 if ($check == false) {
   echo "Erreur: le fichier n'est pas une image";
+  echo "<a href='admin.php'>Retour</a>";
   exit;
 }
 
@@ -48,6 +53,7 @@ if ($check == false) {
 $imageFileType = strtolower(pathinfo($_FILES["file"]["name"], PATHINFO_EXTENSION));
 if ($imageFileType != "jpg") {
   echo "Erreur: le fichier n'est pas un jpg";
+  echo "<a href='admin.php'>Retour</a>";
   exit;
 }
 
@@ -62,6 +68,7 @@ if (!isset($_POST['altitude'])) {
 $coordonees = explode(", ", $_POST['coordonees']);
 if (count($coordonees) != 2) {
   echo "Erreur: les coordonnées ne sont pas au bon format (x, y). Exemple: 1.84, 2.4815";
+  echo "<a href='admin.php'>Retour</a>";
   exit;
 }
 
