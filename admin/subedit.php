@@ -2,7 +2,7 @@
 
 // verifie la session 
 session_start();
-if(!isset($_SESSION['isLogin']) || $_SESSION['isLogin'] == false) {
+if (!isset($_SESSION['isLogin']) || $_SESSION['isLogin'] == false) {
   header("Location: index.php");
   die();
 }
@@ -13,21 +13,21 @@ if(!isset($_SESSION['isLogin']) || $_SESSION['isLogin'] == false) {
 
 // Vérifie le nom
 if (!isset($_POST['nom'])) {
-  echo "Erreur: le nom n'est pas rempli";
+  echo "<p>Erreur: le nom n'est pas rempli</p>";
   echo "<a href='admin.php'>Retour</a>";
   exit;
 }
 
 // Vérifie les coordonnées
 if (!isset($_POST['coordonees'])) {
-  echo "Erreur: les coordonnées ne sont pas remplies";
+  echo "<p>Erreur: les coordonnées ne sont pas remplies</p>";
   echo "<a href='admin.php'>Retour</a>";
   exit;
 }
 
 // Vérifie la ville
 if (!isset($_POST['ville'])) {
-  echo "Erreur: la ville n'est pas remplie";
+  echo "<p>Erreur: la ville n'est pas remplie</p>";
   echo "<a href='admin.php'>Retour</a>";
   exit;
 }
@@ -43,7 +43,7 @@ if (!isset($_POST['altitude'])) {
 // Vérifie les coordonnées et les sépare en x et y
 $coordonees = explode(", ", $_POST['coordonees']);
 if (count($coordonees) != 2) {
-  echo "Erreur: les coordonnées ne sont pas au bon format (x, y). Exemple: 1.84, 2.4815";
+  echo "<p>Erreur: les coordonnées ne sont pas au bon format (x, y).<br>Exemple: 1.84, 2.4815</p>";
   echo "<a href='admin.php'>Retour</a>";
   exit;
 }
@@ -57,7 +57,7 @@ $wiki = $_POST['wiki'];
 
 //récupère l'id
 if (!isset($_POST['id'])) {
-  echo "Erreur: l'id n'a pas été transmit";
+  echo "<p>Erreur: l'id n'a pas été transmit</p>";
   exit;
 }
 $idToUse = $_POST['id'];
@@ -66,11 +66,11 @@ $idToUse = $_POST['id'];
 if ($wiki != "") {
   $toAdd = '"id": ' . $idToUse . ', "nom": "' . $nom . '", "x": "' . $x . '", "y": "' . $y . '", "alt": "' . $altitude . '", "ville": "' . $ville . '", "wiki": "' . $wiki . '"';
   $js = file_get_contents('../js/bornes.js');
-  $js = preg_replace('/"id": '.$idToUse.', "nom": ".*", "x": ".*", "y": ".*", "alt": ".*", "ville": ".*", "wiki": ".*"/', $toAdd, $js);
+  $js = preg_replace('/"id": ' . $idToUse . ', "nom": ".*", "x": ".*", "y": ".*", "alt": ".*", "ville": ".*", "wiki": ".*"/', $toAdd, $js);
 } else {
   $toAdd = '"id": ' . $idToUse . ', "nom": "' . $nom . '", "x": "' . $x . '", "y": "' . $y . '", "alt": "' . $altitude . '", "ville": "' . $ville . '"';
   $js = file_get_contents('../js/bornes.js');
-  $js = preg_replace('/"id": '.$idToUse.', "nom": ".*", "x": ".*", "y": ".*", "alt": ".*", "ville": ".*"/', $toAdd, $js);
+  $js = preg_replace('/"id": ' . $idToUse . ', "nom": ".*", "x": ".*", "y": ".*", "alt": ".*", "ville": ".*"/', $toAdd, $js);
 }
 
 file_put_contents('../js/bornes.js', $js);

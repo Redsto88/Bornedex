@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Edition - Bornedex</title>
+  <link rel="stylesheet" href="../css/admin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +22,7 @@
 
   //récupère l'id
   if (!isset($_GET['id'])) {
-    echo "Erreur: l'id n'est pas rempli";
+    echo "<p>Erreur: l'id n'est pas rempli</p>";
     exit;
   }
   $id = $_GET['id'];
@@ -31,14 +35,14 @@
   $borne = "";
   $bornes = explode("\n", $bornes);
   foreach ($bornes as $b) {
-    if (strpos($b,  '"id": '.$id.'') !== false) {
+    if (strpos($b,  '"id": ' . $id . '') !== false) {
       $borne = $b;
       break;
     }
   }
   //si la borne n'existe pas, on affiche une erreur
   if ($borne == "") {
-    echo "Erreur: la borne n'existe pas";
+    echo "<p>Erreur: la borne n'existe pas</p>";
     exit;
   }
 
@@ -68,7 +72,7 @@
 
 
   //affiche le formulaire
-  
+
   ?>
 
   <form action="subedit.php" method="post">
@@ -91,10 +95,9 @@
     <input type="submit" value="Modifier">
   </form>
 
-  bouton pour supprimer la borne
   <form action="delete.php" method="post">
     <input type="hidden" name="id" id="id" value="<?php echo $id ?>">
-    <input type="submit" value="Supprimer">
+    <input class="btn-danger" type="submit" value="Supprimer">
   </form>
 
   <a href="admin.php">Retour</a>

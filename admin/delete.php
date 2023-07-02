@@ -1,14 +1,14 @@
 <?php
 // verifie la session 
 session_start();
-if(!isset($_SESSION['isLogin']) || $_SESSION['isLogin'] == false) {
+if (!isset($_SESSION['isLogin']) || $_SESSION['isLogin'] == false) {
   header("Location: index.php");
   die();
 }
 
 //réupère l'id
 if (!isset($_POST['id'])) {
-  echo "Erreur: l'id n'est pas rempli";
+  echo "<p>Erreur: l'id n'est pas rempli</p>";
   echo "<a href='admin.php'>Retour</a>";
   exit;
 }
@@ -20,14 +20,14 @@ $bornes = file_get_contents("../js/bornes.js");
 $borne = "";
 $bornes = explode("\n", $bornes);
 foreach ($bornes as $b) {
-  if (strpos($b,  '"id": '.$id.'') !== false) {
+  if (strpos($b,  '"id": ' . $id . '') !== false) {
     $borne = $b;
     break;
   }
 }
 //si la borne n'existe pas, on affiche une erreur
 if ($borne == "") {
-  echo "Erreur: la borne n'existe pas<br>";
+  echo "<p>Erreur: la borne n'existe pas</p>";
   echo "<a href='admin.php'>Retour</a>";
   exit;
 }

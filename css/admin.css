@@ -1,0 +1,44 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+form{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.sep{
+  height: 15px;
+}
+
+label{
+  margin-bottom: 2px;
+}
+
+input{
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+.btn-danger{
+  background-color: #ff6c6c;
+  color: #000;
+  border: none;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: buttonface;
+}
