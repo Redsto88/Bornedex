@@ -486,4 +486,10 @@ var bornes = [
     { "id": 501, "nom": "Gare de Nancy", "x": "48.6901704", "y": "6.1739345", "alt": "inconnue", "ville": "Nancy", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Nancy" },
     { "id": 502, "nom": "Eglise de Saint-Max", "x": "48.700794089003004", "y": "6.207949297931564", "alt": "inconnue", "ville": "Saint-Max"},
     { "id": 503, "nom": "Eglise Saint-Sebastien Nancy", "x": "48.68890484410514", "y": "6.1807563737884275", "alt": "205.361", "ville": "Nancy"},
+    { "id": 504, "nom": "Rue du Docteur Paul Brousse Paris", "x": "48.895762236773166", "y": "2.318458567938428", "alt": "inconnue", "ville": "Paris"},
+    { "id": 505, "nom": "Rue Pouchet Paris", "x": "48.894903997533554", "y": "2.318562842889577", "alt": "inconnue", "ville": "Paris"},
+    { "id": 506, "nom": "83 Boulevard des Maréchaux Paris", "x": "48.89637111634801", "y": "2.3194575388979053", "alt": "inconnue", "ville": "Paris"},
+    { "id": 507, "nom": "113 Boulevard des Maréchaux Paris", "x": "48.894980090944834", "y": "2.315821528480626", "alt": "inconnue", "ville": "Paris"},
+    { "id": 508, "nom": "107 Boulevard des Maréchaux Paris", "x": "48.89541290558518", "y": "2.3169563746157777", "alt": "inconnue", "ville": "Paris"},
+    { "id": 509, "nom": "97 Boulevard des Maréchaux Paris", "x": "48.895733768961975", "y": "2.3177924446944034", "alt": "inconnue", "ville": "Paris"},
 ]
