@@ -480,6 +480,10 @@ var bornes = [
     { "id": 476, "nom": "Mairie Limoges-Fources", "x": "48.62692424040089", "y": "2.664036778730828", "alt": " 93", "ville": "Limoges-Fources" },
     { "id": 477, "nom": "Rue des écoles Limoges-Fourches", "x": "48.62670445562998", "y": "2.6653453665199596", "alt": "inconnue", "ville": "Limoges-Fources"},
     { "id": 478, "nom": "Rue des Hauldres Limoges-Fourches", "x": "48.62554310706046", "y": "2.6646574615177787", "alt": "inconnue", "ville": "Limoges-Fources"},
-
-  { "id": 479, "nom": "Eglise Bey-surSeille", "x": "48.80428215020547", "y": "6.341224908828736", "alt": "inconnue", "ville": "Bey-sur-Seille"},
+    { "id": 479, "nom": "Eglise Bey-surSeille", "x": "48.80428215020547", "y": "6.341224908828736", "alt": "inconnue", "ville": "Bey-sur-Seille"},
+    
+    { "id": 500, "nom": "Eglise Lahayville", "x": "48.887308099159", "y": "5.782360469816081", "alt": "inconnue", "ville": "Lahayville"},
+    { "id": 501, "nom": "Gare de Nancy", "x": "48.6901704", "y": "6.1739345", "alt": "inconnue", "ville": "Nancy", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Nancy" },
+    { "id": 502, "nom": "Eglise de Saint-Max", "x": "48.700794089003004", "y": "6.207949297931564", "alt": "inconnue", "ville": "Saint-Max"},
+    { "id": 503, "nom": "Eglise Saint-Sebastien Nancy", "x": "48.68890484410514", "y": "6.1807563737884275", "alt": "205.361", "ville": "Nancy"},
 ]
