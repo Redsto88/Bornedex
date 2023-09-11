@@ -482,4 +482,9 @@ var bornes = [
     { "id": 478, "nom": "Rue des Hauldres Limoges-Fourches", "x": "48.62554310706046", "y": "2.6646574615177787", "alt": "inconnue", "ville": "Limoges-Fources"},
 
   { "id": 479, "nom": "Eglise Bey-surSeille", "x": "48.80428215020547", "y": "6.341224908828736", "alt": "inconnue", "ville": "Bey-sur-Seille"},
+  { "id": 480, "nom": "Monument pour Christophe Colomb Calvi", "x": "42.56781615699894", "y": "  8.759234607273358", "alt": "18", "ville": "Calvi"},
+  { "id": 481, "nom": "Salle d'exposition Mœurs", "x": "48.72692405936403", "y": "3.6795802117239877", "alt": "inconnue", "ville": "Mœurs"},
+  { "id": 482, "nom": "Rue du Docteur Paul Brousse Paris", "x": "48.895760076232776", "y": "2.3184579652129025", "alt": "inconnue", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Paul_Brousse"},
+  { "id": 483, "nom": "Avenue de Melun Villeneuve-Saint-Georges", "x": "48.72490126095091", "y": "2.4453956558443664", "alt": "inconnue", "ville": "Villeneuve-Saint-Georges"},
+  { "id": 484, "nom": "Église Saint-Sebastien Nancy", "x": "48.68894681352968", "y": " 6.180638372898103", "alt": "205.361", "ville": "Nancy"},
 ]
