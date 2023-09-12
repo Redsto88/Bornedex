@@ -505,3 +505,4 @@ var bornes = [
     { "id": 516, "nom": "Route de Maillane Saint-Rémy-de-Provence", "x": "43.79436219774218", "y": "4.8288012008708225", "alt": "39", "ville": "Saint-Rémy-de-Provence"},
     { "id": 517, "nom": "Gare de Bar-le-Duc", "x": "48.77369762261494", "y": "5.166995318900263", "alt": "186.37", "ville": "Bar-le-Duc"},
 ]
+
