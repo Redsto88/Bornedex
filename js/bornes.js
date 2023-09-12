@@ -496,4 +496,12 @@ var bornes = [
     { "id": 507, "nom": "113 Boulevard des Maréchaux Paris", "x": "48.894980090944834", "y": "2.315821528480626", "alt": "inconnue", "ville": "Paris"},
     { "id": 508, "nom": "107 Boulevard des Maréchaux Paris", "x": "48.89541290558518", "y": "2.3169563746157777", "alt": "inconnue", "ville": "Paris"},
     { "id": 509, "nom": "97 Boulevard des Maréchaux Paris", "x": "48.895733768961975", "y": "2.3177924446944034", "alt": "inconnue", "ville": "Paris"},
+    { "id": 510, "nom": "Passage à Niveau de Val-Sur-Ornain", "x": "48.8066791", "y": "5.0976589", "alt": "inconnue", "ville": "Val-Sur-Ornain"},
+    { "id": 511, "nom": "Place Jean Jaurès Saint-Étienne", "x": "45.44208771396513", "y": "4.387063645094767", "alt": "531.24", "ville": "Saint-Étienne"},
+    { "id": 512, "nom": "Place de la Victoire Yssingeaux", "x": "45.14406934900569", "y": "4.124424981207854", "alt": "855", "ville": "Yssingeaux"},
+    { "id": 513, "nom": "Place du Maréchal Foch Yssingeaux", "x": "45.14254185003238", "y": "4.12376342961778", "alt": "860", "ville": "Yssingeaux"},
+    { "id": 514, "nom": "Avenue Frédéric Mistral Bis Saint-Rémy-de-Provence", "x": "43.7905225464029", "y": "4.830409194538232", "alt": "50", "ville": "Saint-Rémy-de-Provence"},
+    { "id": 515, "nom": "Collegiale Saint-Martin Saint-Rémy-de-Provence", "x": "43.78885199680859", "y": "4.830306214651028", "alt": "57", "ville": "Saint-Rémy-de-Provence"},
+    { "id": 516, "nom": "Route de Maillane Saint-Rémy-de-Provence", "x": "43.79436219774218", "y": "4.8288012008708225", "alt": "39", "ville": "Saint-Rémy-de-Provence"},
+    { "id": 517, "nom": "Gare de Bar-le-Duc", "x": "48.77369762261494", "y": "5.166995318900263", "alt": "186.37", "ville": "Bar-le-Duc"},
 ]
