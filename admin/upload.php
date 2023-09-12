@@ -72,10 +72,10 @@
   }
 
   // Si l'alitude n'est pas renseignée, on met "inconnue"
-  if (!isset($_POST['altitude'])) {
-    $altitude = "inconnue";
+  if (!isset($_POST['alt'])) {
+    $alt = "inconnue";
   } else {
-    $altitude = $_POST['altitude'];
+    $alt = $_POST['alt'];
   }
 
   // Vérifie les coordonnées et les sépare en x et y
@@ -116,9 +116,9 @@
 
   // Ajoute une ligne à l'avant dernière ligne du fichier
   if ($wiki != "") {
-    $toAdd = '  { "id": ' . $idToUse . ', "nom": "' . $nom . '", "x": "' . $x . '", "y": "' . $y . '", "alt": "' . $altitude . '", "ville": "' . $ville . '", "wiki": "' . $wiki . '"},';
+    $toAdd = '  { "id": ' . $idToUse . ', "nom": "' . $nom . '", "x": "' . $x . '", "y": "' . $y . '", "alt": "' . $alt . '", "ville": "' . $ville . '", "wiki": "' . $wiki . '"},';
   } else {
-    $toAdd = '  { "id": ' . $idToUse . ', "nom": "' . $nom . '", "x": "' . $x . '", "y": "' . $y . '", "alt": "' . $altitude . '", "ville": "' . $ville . '"},';
+    $toAdd = '  { "id": ' . $idToUse . ', "nom": "' . $nom . '", "x": "' . $x . '", "y": "' . $y . '", "alt": "' . $alt . '", "ville": "' . $ville . '"},';
   }
 
 
