@@ -46,8 +46,13 @@
     exit;
   }
 
+  
+  
+  //cherche l'id de la borne dans le tableau
+  $idborne = array_search($borne, $bornes);
   //supprime la ligne
-  $bornes = str_replace($borne, "", $bornes);
+  unset($bornes[$idborne]);
+
   //réécrit le fichier
   $bornes = implode("\n", $bornes);
   file_put_contents("../js/bornes.js", $bornes);
