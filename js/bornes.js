@@ -504,5 +504,11 @@ var bornes = [
     { "id": 515, "nom": "Collegiale Saint-Martin Saint-Rémy-de-Provence", "x": "43.78885199680859", "y": "4.830306214651028", "alt": "57", "ville": "Saint-Rémy-de-Provence"},
     { "id": 516, "nom": "Route de Maillane Saint-Rémy-de-Provence", "x": "43.79436219774218", "y": "4.8288012008708225", "alt": "39", "ville": "Saint-Rémy-de-Provence"},
     { "id": 517, "nom": "Gare de Bar-le-Duc", "x": "48.77369762261494", "y": "5.166995318900263", "alt": "186.37", "ville": "Bar-le-Duc"},
+    { "id": 518, "nom": "6 montée des Epies Lyon", "x": "45.757778286774276", "y": "4.824501664374376", "alt": "inconnue", "ville": "Lyon"},
+    { "id": 519, "nom": "Le Musée Guimet Lyon", "x": "45.77459451442129", "y": "4.848109155220785", "alt": "inconnue", "ville": "Lyon"},
+    { "id": 520, "nom": "Ensemble Paroissial de la Croix-Rousse Lyon", "x": "45.779588764018", "y": "4.8319511107708175", "alt": "inconnue", "ville": "Lyon"},
+    { "id": 521, "nom": "Ensemble Paroissial de la Croix-Rousse Lyon", "x": "45.779585683345864", "y": "4.831880436890772", "alt": "inconnue", "ville": "Lyon"},
+    { "id": 522, "nom": "33 Rue Pierre Brunier Caluire-et-Cuire", "x": "45.78603338930485", "y": "4.8297630587101805", "alt": "inconnue", "ville": "Caluire-et-Cuire"},
+    { "id": 523, "nom": "Paroisse Saint Romain de Cuire Caluire-et-Cuire", "x": "45.790437318464654", "y": "4.830678022847907", "alt": "inconnue", "ville": "Caluire-et-Cuire"},
 ]
 
