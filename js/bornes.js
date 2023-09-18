@@ -486,6 +486,8 @@ var bornes = [
     { "id": 482, "nom": "Rue du Docteur Paul Brousse Paris", "x": "48.895760076232776", "y": "2.3184579652129025", "alt": "inconnue", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Paul_Brousse"},
     { "id": 483, "nom": "Avenue de Melun Villeneuve-Saint-Georges", "x": "48.72490126095091", "y": "2.4453956558443664", "alt": "inconnue", "ville": "Villeneuve-Saint-Georges"},
     { "id": 484, "nom": "Église Saint-Sebastien Nancy", "x": "48.68894681352968", "y": " 6.180638372898103", "alt": "205.361", "ville": "Nancy"},
+    { "id": 485, "nom": "Pont Jeanne d'Arc Melun", "x": "48.5375992334115", "y": "2.6588447836798563", "alt": "inconnue", "ville": "Melun"},
+    { "id": 486, "nom": "Rue du Port Melun", "x": "48.53680459229203", "y": "2.65679638739594", "alt": "inconnue", "ville": "Melun"},
     { "id": 500, "nom": "Eglise Lahayville", "x": "48.887308099159", "y": "5.782360469816081", "alt": "inconnue", "ville": "Lahayville"},
     { "id": 501, "nom": "Gare de Nancy", "x": "48.6901704", "y": "6.1739345", "alt": "inconnue", "ville": "Nancy", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Nancy" },
     { "id": 502, "nom": "Eglise de Saint-Max", "x": "48.700794089003004", "y": "6.207949297931564", "alt": "inconnue", "ville": "Saint-Max"},
