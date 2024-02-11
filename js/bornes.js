@@ -513,4 +513,3 @@ var bornes = [
     { "id": 522, "nom": "33 Rue Pierre Brunier Caluire-et-Cuire", "x": "45.78603338930485", "y": "4.8297630587101805", "alt": "inconnue", "ville": "Caluire-et-Cuire"},
     { "id": 523, "nom": "Paroisse Saint Romain de Cuire Caluire-et-Cuire", "x": "45.790437318464654", "y": "4.830678022847907", "alt": "inconnue", "ville": "Caluire-et-Cuire"},
 ]
-
