@@ -102,6 +102,10 @@
       <a href="javascript:teleportToMarker()">Retourner à la borne</a>
       <a href="javascript:teleportToOrigin()">Remettre la borne</a>
     </div>
+    <div class="div">
+    	<img src="../bornes/<?php echo $id ?>.jpg" height="450" alt="Image de la borne">
+    </div>
+
 
   </div>
 
@@ -111,6 +115,7 @@
   </form>
 
   <a href="admin.php">Retour</a>
+  <a href="../?borne=<?php echo $id ?>">Voir sur le site</a>
 
   <script src="../lib/leaflet/leaflet.js"></script>
   <script src="../js/admin-map.js"></script>

@@ -103,13 +103,13 @@
   // recherche l'id le plus petit qui n'est pas utilisé
   $idToUse = 0;
   $found = false;
-  for ($i = 0; $i < $lastId; $i++) {
-    if($i != $matches[$i]){
-      $idToUse = $i;
-      $found = true;
-      break;
-    }
-  }
+  //for ($i = 0; $i < $lastId; $i++) {
+    //if($i != $matches[$i]){
+      //$idToUse = $i;
+      //$found = true;
+      //break;
+    //}
+  //}
   if(!$found){
     $idToUse = $lastId + 1;
   }
