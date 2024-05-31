@@ -601,4 +601,8 @@ var bornes = [
   { "id": 597, "nom": "Gare Saint-Lazare 2 Paris", "x": "48.87699619875835", "y": "2.3268291898055122", "alt": "", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Paris-Saint-Lazare"},
   { "id": 598, "nom": "Rue d'Athenes Paris", "x": "48.87800884437057", "y": "2.327508874282952", "alt": "", "ville": "Paris"},
   { "id": 599, "nom": "Lycée Condorcet Paris", "x": "48.87483956069481", "y": "2.3269088483170117", "alt": "", "ville": "paris", "wiki": "https://fr.wikipedia.org/wiki/Lyc%C3%A9e_Condorcet"},
+    { "id": 600, "nom": "Halle de Saint-Pierre Paris", "x": "48.88451798749946", "y": "2.344637640108941", "alt": "", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Halle_Saint-Pierre"},
+    { "id": 601, "nom": "Halle de Saint-Pierre Paris", "x": "48.88447483493345", "y": "2.344486173807729", "alt": "", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Halle_Saint-Pierre"},
+    { "id": 602, "nom": "Halle de Saint-Pierre Paris", "x": "48.884515842202134", "y": "2.344358098121039", "alt": "", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Halle_Saint-Pierre"},
+
 ]
