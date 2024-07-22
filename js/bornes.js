@@ -604,5 +604,6 @@ var bornes = [
     { "id": 600, "nom": "Halle de Saint-Pierre Paris", "x": "48.88451798749946", "y": "2.344637640108941", "alt": "", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Halle_Saint-Pierre"},
     { "id": 601, "nom": "Halle de Saint-Pierre Paris", "x": "48.88447483493345", "y": "2.344486173807729", "alt": "", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Halle_Saint-Pierre"},
     { "id": 602, "nom": "Halle de Saint-Pierre Paris", "x": "48.884515842202134", "y": "2.344358098121039", "alt": "", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Halle_Saint-Pierre"},
+    { "id": 603, "nom": "Fort des Saumonards / Forty2 Saint-Georges-d'Oléron", "x": "45.98772025413079", "y": "-1.2470353293439775", "alt": "9.499", "ville": "Saint-Georges-d'Oléron" },
 
 ]
