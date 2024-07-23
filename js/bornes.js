@@ -512,6 +512,7 @@ var bornes = [
     { "id": 508, "nom": "Ensemble Paroissial de la Croix-Rousse Lyon", "x": "45.779585683345864", "y": "4.831880436890772", "alt": "inconnue", "ville": "Lyon"},
     { "id": 509, "nom": "33 Rue Pierre Brunier Caluire-et-Cuire", "x": "45.78603338930485", "y": "4.8297630587101805", "alt": "inconnue", "ville": "Caluire-et-Cuire"},
     { "id": 510, "nom": "Paroisse Saint Romain de Cuire Caluire-et-Cuire", "x": "45.790437318464654", "y": "4.830678022847907", "alt": "inconnue", "ville": "Caluire-et-Cuire"},
+<<<<<<< Updated upstream
     { "id": 511, "nom": "Maison de garde-barrière Objat", "x": "45.26086767418907", "y": "1.4057823204839093", "alt": "131", "ville": "Objat"},
     { "id": 512, "nom": "Gare de Cornil Pont de Cornil", "x": "45.215228467551135", "y": "1.6983641191165806", "alt": "", "ville": "Pont de Cornil", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Cornil"},
     { "id": 513, "nom": "Préfecture de la Corrèze Tulle", "x": "45.27044277495443", "y": "1.7689399653992322", "alt": "", "ville": "Tulle", "wiki": "https://fr.wikipedia.org/wiki/Hôtel_de_préfecture_de_la_Corrèze"},
@@ -605,5 +606,9 @@ var bornes = [
     { "id": 601, "nom": "Halle de Saint-Pierre Paris", "x": "48.88447483493345", "y": "2.344486173807729", "alt": "", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Halle_Saint-Pierre"},
     { "id": 602, "nom": "Halle de Saint-Pierre Paris", "x": "48.884515842202134", "y": "2.344358098121039", "alt": "", "ville": "Paris", "wiki": "https://fr.wikipedia.org/wiki/Halle_Saint-Pierre"},
     { "id": 603, "nom": "Fort des Saumonards / Forty2 Saint-Georges-d'Oléron", "x": "45.98772025413079", "y": "-1.2470353293439775", "alt": "9.499", "ville": "Saint-Georges-d'Oléron" },
-
+    { "id": 604, "nom": "Maison Route du Château lieu-dit Le Bourg Vendoire", "x": "45.41578000051223", "y": "0.3070162030291316", "alt": "134", "ville": "Vendoire", "wiki": "https://fr.wikipedia.org/wiki/Vendoire"},
+    { "id": 605, "nom": "Puit Peyresq", "x": "44.06798981877151", "y": "6.616807315862749", "alt": "1526", "ville": "Peyresq", "wiki": "https://fr.wikipedia.org/wiki/Peyresq"},
+    { "id": 606, "nom": "Monument aux morts Béziers", "x": "43.336907566077606", "y": "3.219098204156949", "alt": "", "ville": "Béziers", "wiki": "https://mybeziers.fr/monument-aux-morts/#:~:text=Le%20monument%20aux%20morts%20et,Premi%C3%A8re%20Guerre%20mondiale%2C%20en%201918."},
+    { "id": 607, "nom": "Église Saint-Adelphe Languimberg", "x": "48.745795473145805", "y": "6.85834130753877", "alt": "290", "ville": "Languimberg"},
+    { "id": 608, "nom": "Église Eguisheim", "x": "48.0423161988668", "y": "7.305113818882908", "alt": "", "ville": "Eguisheim", "wiki": "https://fr.wikipedia.org/wiki/%C3%89glise_Saints-Pierre-et-Paul_d%27Eguisheim"},
 ]
