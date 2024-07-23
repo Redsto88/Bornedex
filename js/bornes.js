@@ -512,7 +512,6 @@ var bornes = [
     { "id": 508, "nom": "Ensemble Paroissial de la Croix-Rousse Lyon", "x": "45.779585683345864", "y": "4.831880436890772", "alt": "inconnue", "ville": "Lyon"},
     { "id": 509, "nom": "33 Rue Pierre Brunier Caluire-et-Cuire", "x": "45.78603338930485", "y": "4.8297630587101805", "alt": "inconnue", "ville": "Caluire-et-Cuire"},
     { "id": 510, "nom": "Paroisse Saint Romain de Cuire Caluire-et-Cuire", "x": "45.790437318464654", "y": "4.830678022847907", "alt": "inconnue", "ville": "Caluire-et-Cuire"},
-<<<<<<< Updated upstream
     { "id": 511, "nom": "Maison de garde-barrière Objat", "x": "45.26086767418907", "y": "1.4057823204839093", "alt": "131", "ville": "Objat"},
     { "id": 512, "nom": "Gare de Cornil Pont de Cornil", "x": "45.215228467551135", "y": "1.6983641191165806", "alt": "", "ville": "Pont de Cornil", "wiki": "https://fr.wikipedia.org/wiki/Gare_de_Cornil"},
     { "id": 513, "nom": "Préfecture de la Corrèze Tulle", "x": "45.27044277495443", "y": "1.7689399653992322", "alt": "", "ville": "Tulle", "wiki": "https://fr.wikipedia.org/wiki/Hôtel_de_préfecture_de_la_Corrèze"},
